@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Little Sprouts Early Learning | Daycare & Preschool in Brookfield Heights</title>
+<meta name="description" content="Little Sprouts Early Learning offers loving, play-based daycare and preschool programs for infants through Pre-K in Brookfield Heights. Book a campus tour today.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+<!-- Swiper -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<!-- GLightbox -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+
+<!-- Tailwind CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    darkMode: 'class',
+    theme: {
+      extend: {
+        colors: {
+          sunshine: { 50:'#FFFCF2',100:'#FFF6D9',200:'#FFEBAD',300:'#FFDE7A',400:'#FFD35C',500:'#FFC93C',600:'#F0AE0E',700:'#C98A05' },
+          sky:      { 50:'#EFF9FF',100:'#DCF1FF',200:'#BEE8FE',300:'#8FD6FB',400:'#5FC5F7',500:'#3DB4F2',600:'#1E96D6',700:'#1678AE' },
+          coral:    { 50:'#FFF1F1',100:'#FFE1E1',200:'#FFC7C7',300:'#FFA8A8',400:'#FF8A8A',500:'#FF6B6B',600:'#E8514F',700:'#C93E3C' },
+          leaf:     { 50:'#E9FFF8',100:'#C9FCEC',200:'#98F5D9',300:'#5FEFC7',400:'#2FE3B4',500:'#06D6A0',600:'#04A87D',700:'#038864' },
+          ink:      { DEFAULT:'#2B2440', 50:'#F5F3FA', 900:'#16121F' }
+        },
+        fontFamily: {
+          display: ['Baloo 2', 'cursive'],
+          body: ['Quicksand', 'sans-serif']
+        }
+      }
+    }
+  };
+</script>
+
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="font-body antialiased overflow-x-hidden">
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- Shared clip-path definitions for .blob-mask / .blob-mask-alt (objectBoundingBox scales with element size) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <clipPath id="blobClip1" clipPathUnits="objectBoundingBox">
+      <path d="M0.977,0.612 C0.977,0.857 0.744,0.959 0.488,0.959 C0.209,0.959 0.023,0.796 0.023,0.551 C0.023,0.306 0.233,0.041 0.535,0.041 C0.837,0.041 0.977,0.367 0.977,0.612 Z"/>
+    </clipPath>
+    <clipPath id="blobClip2" clipPathUnits="objectBoundingBox">
+      <path d="M0.625,0.023 C0.833,0.023 0.979,0.205 0.979,0.432 C0.979,0.682 0.875,0.773 0.708,0.886 C0.542,1.000 0.333,1.068 0.188,0.932 C0.042,0.795 0.021,0.545 0.083,0.341 C0.146,0.136 0.417,0.023 0.625,0.023 Z"/>
+    </clipPath>
+  </defs>
+</svg>
+
+<!-- ==========================================================================
+     HEADER — two-level, centered-logo split navigation
+     ========================================================================== -->
+<header class="site-header fixed top-0 inset-x-0 z-50 bg-white/95 dark:bg-ink-900/95 backdrop-blur-md">
+  <div class="utility-bar bg-ink text-white/90">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between py-2 text-xs sm:text-sm">
+      <div class="flex items-center gap-4">
+        <a href="tel:+15551234567" class="hover:text-sunshine-400 transition-colors"><i class="fa-solid fa-phone-volume" aria-hidden="true"></i> (555) 123-4567</a>
+        <span class="hidden sm:inline-flex items-center gap-1"><i class="fa-regular fa-clock" aria-hidden="true"></i> Mon–Fri, 7:00 AM–6:00 PM</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="admissions.html" class="hidden sm:inline hover:text-sunshine-400 transition-colors">Now Enrolling for Fall 2026</a>
+        <span class="flex items-center gap-2.5" aria-label="Follow us on social media">
+          <a href="#" class="hover:text-sunshine-400 transition-colors" aria-label="Facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+          <a href="#" class="hover:text-sunshine-400 transition-colors" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3">
+    <div class="flex items-center justify-between gap-4">
+      <!-- Logo (always left) -->
+      <a href="index.html" class="flex items-center gap-2 shrink-0 ltr:order-2 ltr:ml-auto xl:ltr:order-none xl:ltr:ml-0" aria-label="Little Sprouts Early Learning — Home">
+        <svg viewBox="0 0 48 48" class="w-9 h-9" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" fill="#FFC93C"/>
+          <path d="M24 12c-6 3-9 8-9 14 0 4.5 4 8 9 8s9-3.5 9-8c0-6-3-11-9-14Z" fill="#06D6A0"/>
+          <circle cx="19" cy="22" r="2" fill="#2B2440"/>
+          <circle cx="29" cy="22" r="2" fill="#2B2440"/>
+          <path d="M18 28c2 2.5 10 2.5 12 0" stroke="#2B2440" stroke-width="2" stroke-linecap="round" fill="none"/>
+        </svg>
+        <span class="font-display font-extrabold text-lg leading-tight text-ink dark:text-white">Little Sprouts</span>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav aria-label="Primary" class="hidden xl:flex flex-1 items-center justify-center gap-7">
+        <div class="nav-dropdown" data-dropdown>
+          <button type="button" class="nav-link text-ink dark:text-white inline-flex items-center gap-1.5" data-dropdown-trigger aria-haspopup="true" aria-expanded="false" aria-current="page">
+            Home <i class="fa-solid fa-chevron-down text-xs nav-dropdown-chevron" aria-hidden="true"></i>
+          </button>
+          <div class="nav-dropdown-panel" data-dropdown-panel role="menu">
+            <a href="index.html" role="menuitem" aria-current="page">Home 1</a>
+            <a href="home-2.html" role="menuitem">Home 2</a>
+          </div>
+        </div>
+        <a href="about.html" class="nav-link text-ink dark:text-white">About</a>
+        <a href="programs.html" class="nav-link text-ink dark:text-white">Programs</a>
+        <a href="gallery.html" class="nav-link text-ink dark:text-white">Gallery</a>
+        <a href="teachers.html" class="nav-link text-ink dark:text-white">Teachers</a>
+        <a href="pricing.html" class="nav-link text-ink dark:text-white">Pricing</a>
+        <a href="contact.html" class="nav-link text-ink dark:text-white">Contact</a>
+      </nav>
+
+      <!-- Desktop controls -->
+      <div class="hidden xl:flex items-center gap-1 pl-3 border-l-2 border-ink/10 dark:border-white/15">
+        <button type="button" data-theme-toggle class="w-9 h-9 rounded-full grid place-items-center hover:bg-ink/5 dark:hover:bg-white/10 transition-colors text-ink dark:text-white" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-sun" data-icon="sun" aria-hidden="true"></i>
+          <i class="fa-solid fa-moon hidden" data-icon="moon" aria-hidden="true"></i>
+        </button>
+        <button type="button" data-dir-toggle class="w-9 h-9 rounded-full grid place-items-center hover:bg-ink/5 dark:hover:bg-white/10 transition-colors text-ink dark:text-white text-xs font-bold" aria-label="Toggle text direction">
+          <span data-dir-label>RTL</span>
+        </button>
+      </div>
+      <a href="admissions.html" class="hidden xl:inline-flex btn-chunky btn-chunky-primary text-sm py-2.5 px-5">Book a Tour</a>
+
+      <!-- Mobile hamburger -->
+      <button type="button" data-menu-open class="xl:hidden ltr:order-1 w-11 h-11 grid place-items-center rounded-xl border-2 border-ink/10 dark:border-white/15 text-ink dark:text-white" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-overlay">
+        <i class="fa-solid fa-bars text-lg" aria-hidden="true"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile full-screen overlay menu -->
+<div id="mobile-overlay" aria-hidden="true">
+  <div class="flex items-center justify-between px-5 py-4 border-b border-ink/10 dark:border-white/10">
+    <span class="font-display font-extrabold text-lg text-ink dark:text-white">Menu</span>
+    <button type="button" data-menu-close class="w-11 h-11 grid place-items-center rounded-xl border-2 border-ink/10 dark:border-white/15 text-ink dark:text-white" aria-label="Close menu">
+      <i class="fa-solid fa-xmark text-lg" aria-hidden="true"></i>
+    </button>
+  </div>
+  <nav aria-label="Mobile" class="flex flex-col items-end sm:items-center justify-center gap-1 px-6 py-8 text-right sm:text-center overflow-y-auto">
+    <div class="menu-item flex flex-col items-end sm:items-center">
+      <button type="button" class="nav-link text-2xl font-display font-bold py-3 text-ink dark:text-white inline-flex items-center gap-2" data-mobile-submenu-toggle aria-expanded="false" aria-controls="mobile-home-submenu" aria-current="page">
+        Home <i class="fa-solid fa-chevron-down text-base transition-transform" aria-hidden="true"></i>
+      </button>
+      <div class="mobile-submenu-panel flex flex-col items-end sm:items-center" id="mobile-home-submenu">
+        <a href="index.html" class="nav-link text-lg font-display font-semibold py-2 text-ink/80 dark:text-white/80" aria-current="page">Home 1</a>
+        <a href="home-2.html" class="nav-link text-lg font-display font-semibold py-2 text-ink/80 dark:text-white/80">Home 2</a>
+      </div>
+    </div>
+    <a href="about.html" class="menu-item nav-link text-2xl font-display font-bold py-3 text-ink dark:text-white" style="transition-delay:.03s">About</a>
+    <a href="programs.html" class="menu-item nav-link text-2xl font-display font-bold py-3 text-ink dark:text-white" style="transition-delay:.06s">Programs</a>
+    <a href="gallery.html" class="menu-item nav-link text-2xl font-display font-bold py-3 text-ink dark:text-white" style="transition-delay:.09s">Gallery</a>
+    <a href="teachers.html" class="menu-item nav-link text-2xl font-display font-bold py-3 text-ink dark:text-white" style="transition-delay:.12s">Teachers</a>
+    <a href="pricing.html" class="menu-item nav-link text-2xl font-display font-bold py-3 text-ink dark:text-white" style="transition-delay:.15s">Pricing</a>
+    <a href="faq.html" class="menu-item nav-link text-2xl font-display font-bold py-3 text-ink dark:text-white" style="transition-delay:.18s">FAQ</a>
+    <a href="contact.html" class="menu-item nav-link text-2xl font-display font-bold py-3 text-ink dark:text-white" style="transition-delay:.21s">Contact</a>
+    <div class="menu-item flex items-center flex-nowrap gap-3 mt-4" style="transition-delay:.24s">
+      <button type="button" data-theme-toggle class="w-11 h-11 shrink-0 rounded-full grid place-items-center border-2 border-ink/10 dark:border-white/20 text-ink dark:text-white" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-sun" data-icon="sun" aria-hidden="true"></i>
+        <i class="fa-solid fa-moon hidden" data-icon="moon" aria-hidden="true"></i>
+      </button>
+      <button type="button" data-dir-toggle class="h-11 px-4 shrink-0 rounded-full inline-flex items-center gap-2 border-2 border-ink/10 dark:border-white/20 text-ink dark:text-white text-sm font-bold whitespace-nowrap" aria-label="Toggle text direction">
+        <i class="fa-solid fa-arrow-right-arrow-left text-xs" aria-hidden="true"></i><span data-dir-label>RTL</span>
+      </button>
+    </div>
+    <a href="admissions.html" class="menu-item btn-chunky btn-chunky-primary mt-5 w-full max-w-xs justify-center" style="transition-delay:.27s">Book a Tour</a>
+  </nav>
+</div>
+
+<main id="main-content">
+
+  <!-- ==========================================================================
+       HERO — layered blob-mask composition with floating decorative shapes
+       ========================================================================== -->
+  <section class="relative pt-40 pb-24 md:pt-48 md:pb-32 bg-sunshine-50 dark:bg-ink-900 overflow-hidden">
+    <!-- Floating decorative shapes -->
+    <svg class="float-shape absolute top-36 left-[6%] w-14 h-14 text-sky-300 dark:text-sky-700/60 hidden sm:block" viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M16 40a12 12 0 0 1 2-23.8A16 16 0 0 1 48 20a10 10 0 0 1-2 20H16Z"/></svg>
+    <svg class="float-shape delay-2 absolute bottom-16 left-[14%] w-9 h-9 text-coral-300 dark:text-coral-700/60 hidden sm:block" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .6 14.6 9H23l-6.8 5 2.6 8.4L12 17.4l-6.8 5L7.8 14 1 9h8.4Z"/></svg>
+    <svg class="float-shape delay-1 absolute top-32 right-[8%] w-10 h-10 text-leaf-300 dark:text-leaf-700/60 hidden lg:block" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .6 14.6 9H23l-6.8 5 2.6 8.4L12 17.4l-6.8 5L7.8 14 1 9h8.4Z"/></svg>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-14 items-center relative">
+      <div>
+        <span class="inline-flex items-center gap-2 bg-white dark:bg-ink-900/40 border-2 border-coral-200 dark:border-coral-700/40 text-coral-600 dark:text-coral-300 font-display font-bold text-sm px-4 py-1.5 rounded-full mb-6" data-reveal data-reveal-group="hero">
+          <i class="fa-solid fa-star text-sunshine-500" aria-hidden="true"></i> Now Enrolling for Fall 2026
+        </span>
+        <h1 class="font-display text-4xl sm:text-5xl md:text-[3.4rem] font-extrabold leading-[1.08] text-ink dark:text-white mb-2" data-reveal data-reveal-group="hero">
+          Nurturing Little Hearts with
+        </h1>
+        <div class="font-display text-4xl sm:text-5xl md:text-[3.4rem] font-extrabold leading-[1.08] mb-6" data-reveal data-reveal-group="hero">
+          <span class="text-coral-500" id="typed-hero">Loving Care.</span>
+        </div>
+        <p class="text-lg text-ink/70 dark:text-white/70 max-w-xl mb-8" data-reveal data-reveal-group="hero">
+          Little Sprouts Early Learning is a licensed daycare and preschool in Brookfield Heights, guiding children from 6 weeks to 5 years through joyful, play-based discovery — in bright classrooms led by teachers who know every child by name.
+        </p>
+        <div class="flex flex-wrap gap-4" data-reveal data-reveal-group="hero">
+          <a href="admissions.html" class="btn-chunky btn-chunky-primary"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Book a Campus Tour</a>
+          <a href="programs.html" class="btn-chunky btn-chunky-outline"><i class="fa-solid fa-child-reaching" aria-hidden="true"></i> Explore Programs</a>
+        </div>
+      </div>
+
+      <div class="relative mx-auto max-w-md lg:max-w-none" data-reveal data-reveal-group="hero-img">
+        <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=800&q=80"
+             alt="Children laughing and playing together outdoors at Little Sprouts Early Learning"
+             class="ph-img blob-mask w-full shadow-2xl" loading="eager" fetchpriority="high" width="430" height="490">
+        <img src="https://images.unsplash.com/photo-1543342384-1f1350e27861?auto=format&fit=crop&w=420&q=80"
+             alt="Caregiver gently holding a swaddled infant in the Little Sprouts nursery"
+             class="ph-img blob-mask-alt absolute -bottom-10 -left-10 w-40 sm:w-48 border-[6px] border-[var(--cream)] dark:border-ink-900 shadow-xl hidden sm:block"
+             loading="eager" width="480" height="440">
+        <div class="absolute -top-6 -right-4 sm:right-2 bg-white dark:bg-[#1B2138] rounded-2xl shadow-xl px-4 py-3 flex items-center gap-3 border-2 border-sunshine-300">
+          <div class="w-10 h-10 rounded-full bg-leaf-100 dark:bg-leaf-500/20 grid place-items-center text-leaf-600 dark:text-leaf-400"><i class="fa-solid fa-shield-heart" aria-hidden="true"></i></div>
+          <div class="text-sm leading-tight">
+            <p class="font-display font-bold text-ink dark:text-white">State Licensed</p>
+            <p class="text-ink/60 dark:text-white/60">&amp; Fully Accredited</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <svg class="wave-divider absolute -bottom-px inset-x-0 text-[var(--cream)] dark:text-ink-900" viewBox="0 0 1200 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0,30 C300,90 900,-20 1200,30 L1200,90 L0,90 Z"/></svg>
+  </section>
+
+  <!-- ==========================================================================
+       TRUST BADGES STRIP
+       ========================================================================== -->
+  <section class="bg-[var(--cream)] dark:bg-ink-900 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-2 md:grid-cols-4 gap-6" data-reveal data-reveal-group="trust">
+      <div class="flex flex-col items-center text-center gap-2">
+        <div class="w-14 h-14 rounded-2xl bg-sky-100 dark:bg-sky-500/15 grid place-items-center text-sky-600 dark:text-sky-300 text-xl"><i class="fa-solid fa-certificate" aria-hidden="true"></i></div>
+        <p class="font-display font-bold text-ink dark:text-white text-sm">Licensed &amp; Accredited</p>
+      </div>
+      <div class="flex flex-col items-center text-center gap-2">
+        <div class="w-14 h-14 rounded-2xl bg-coral-100 dark:bg-coral-500/15 grid place-items-center text-coral-600 dark:text-coral-300 text-xl"><i class="fa-solid fa-hand-holding-heart" aria-hidden="true"></i></div>
+        <p class="font-display font-bold text-ink dark:text-white text-sm">15+ Years of Care</p>
+      </div>
+      <div class="flex flex-col items-center text-center gap-2">
+        <div class="w-14 h-14 rounded-2xl bg-leaf-100 dark:bg-leaf-500/15 grid place-items-center text-leaf-600 dark:text-leaf-300 text-xl"><i class="fa-solid fa-user-nurse" aria-hidden="true"></i></div>
+        <p class="font-display font-bold text-ink dark:text-white text-sm">CPR-Certified Staff</p>
+      </div>
+      <div class="flex flex-col items-center text-center gap-2">
+        <div class="w-14 h-14 rounded-2xl bg-sunshine-100 dark:bg-sunshine-500/15 grid place-items-center text-sunshine-600 dark:text-sunshine-300 text-xl"><i class="fa-solid fa-people-group" aria-hidden="true"></i></div>
+        <p class="font-display font-bold text-ink dark:text-white text-sm">4:1 Ratio for Infants</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       WELCOME SNAPSHOT — split image + text
+       ========================================================================== -->
+  <section class="relative bg-sky-50 dark:bg-[#0F1830] py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-12 items-center">
+      <div class="relative order-2 lg:order-1" data-reveal data-reveal-group="welcome-img">
+        <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=760&q=80"
+             alt="Teacher reading a story to a small group of preschoolers on a rug"
+             class="ph-img rounded-[2.5rem] w-full h-[420px] object-cover shadow-xl" loading="lazy" width="760" height="420">
+        <div class="absolute -bottom-6 -right-6 bg-coral-500 text-white rounded-2xl px-5 py-4 shadow-xl hidden sm:block">
+          <p class="font-display text-3xl font-extrabold leading-none"><span data-reveal-number="320">0</span>+</p>
+          <p class="text-xs font-semibold opacity-90 mt-1">Happy Little Graduates</p>
+        </div>
+      </div>
+      <div class="order-1 lg:order-2" data-reveal data-reveal-group="welcome-text">
+        <span class="font-display font-bold text-sky-600 dark:text-sky-300 text-sm tracking-wide uppercase">Welcome to Little Sprouts</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-ink dark:text-white mt-2 mb-5">A Second Home Where Every Child Feels Seen</h2>
+        <p class="text-ink/70 dark:text-white/70 mb-4">For over 15 years, families in Brookfield Heights have trusted Little Sprouts to care for their children's earliest, most important years. Our play-based curriculum blends structured learning with plenty of time to imagine, build, and giggle.</p>
+        <p class="text-ink/70 dark:text-white/70 mb-6">Every classroom is led by degree-qualified teachers, kept to small group sizes, and filled with natural light, soft rugs, and hands-on learning centers designed just for growing minds.</p>
+        <ul class="grid sm:grid-cols-2 gap-3 mb-8">
+          <li class="flex items-center gap-2 text-ink dark:text-white font-semibold"><i class="fa-solid fa-circle-check text-leaf-500" aria-hidden="true"></i> Play-based curriculum</li>
+          <li class="flex items-center gap-2 text-ink dark:text-white font-semibold"><i class="fa-solid fa-circle-check text-leaf-500" aria-hidden="true"></i> Chef-prepared meals</li>
+          <li class="flex items-center gap-2 text-ink dark:text-white font-semibold"><i class="fa-solid fa-circle-check text-leaf-500" aria-hidden="true"></i> Live classroom webcams</li>
+          <li class="flex items-center gap-2 text-ink dark:text-white font-semibold"><i class="fa-solid fa-circle-check text-leaf-500" aria-hidden="true"></i> Secure keycard entry</li>
+        </ul>
+        <a href="about.html" class="btn-chunky btn-chunky-sun">Meet Our Story <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <svg class="wave-divider absolute -bottom-px inset-x-0 text-[var(--cream)] dark:text-ink-900" viewBox="0 0 1200 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0,60 C300,-10 900,120 1200,50 L1200,90 L0,90 Z"/></svg>
+  </section>
+
+  <!-- ==========================================================================
+       AGE-GROUP PROGRAMS — tabbed sticker cards
+       ========================================================================== -->
+  <section class="bg-[var(--cream)] dark:bg-ink-900 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="text-center max-w-2xl mx-auto mb-12" data-reveal data-reveal-group="programs-head">
+        <span class="font-display font-bold text-coral-500 text-sm tracking-wide uppercase">Programs by Age</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-ink dark:text-white mt-2">A Program for Every Stage of Growing Up</h2>
+      </div>
+
+      <div data-tabs>
+        <div class="flex flex-wrap justify-center gap-3 mb-10" role="tablist" aria-label="Age group programs">
+          <button type="button" class="tab-btn font-display font-bold text-sm sm:text-base px-5 py-2.5 rounded-xl border-2 border-ink/10 dark:border-white/15 text-ink dark:text-white transition-colors" data-tab="infant" role="tab">Infant · 6wks–1yr</button>
+          <button type="button" class="tab-btn font-display font-bold text-sm sm:text-base px-5 py-2.5 rounded-xl border-2 border-ink/10 dark:border-white/15 text-ink dark:text-white transition-colors" data-tab="toddler" role="tab">Toddler · 1–2yrs</button>
+          <button type="button" class="tab-btn font-display font-bold text-sm sm:text-base px-5 py-2.5 rounded-xl border-2 border-ink/10 dark:border-white/15 text-ink dark:text-white transition-colors" data-tab="preschool" role="tab">Preschool · 3–4yrs</button>
+          <button type="button" class="tab-btn font-display font-bold text-sm sm:text-base px-5 py-2.5 rounded-xl border-2 border-ink/10 dark:border-white/15 text-ink dark:text-white transition-colors" data-tab="prek" role="tab">Pre-K · 4–5yrs</button>
+        </div>
+
+        <div class="tab-panel grid md:grid-cols-2 gap-10 items-center" data-panel="infant" role="tabpanel">
+          <img src="https://images.unsplash.com/photo-1560307815-52379f7efa8a?auto=format&fit=crop&w=700&q=80" alt="Infant caregiver gently holding a baby in the Little Sprouts infant room" class="ph-img rounded-[2rem] w-full h-80 object-cover shadow-lg" loading="lazy" width="700" height="320">
+          <div>
+            <h3 class="font-display text-2xl font-extrabold text-ink dark:text-white mb-3">Infant Program <span class="text-coral-500">· 6 weeks – 12 months</span></h3>
+            <p class="text-ink/70 dark:text-white/70 mb-4">A calm, sensory-rich nursery with a strict 4:1 caregiver ratio. We follow each family's feeding, sleep, and comfort routines closely, with daily digital reports so you never miss a milestone.</p>
+            <ul class="space-y-2 mb-6">
+              <li class="flex items-start gap-2 text-ink dark:text-white"><i class="fa-solid fa-star text-sunshine-500 mt-1" aria-hidden="true"></i> Individualized feeding &amp; nap schedules</li>
+              <li class="flex items-start gap-2 text-ink dark:text-white"><i class="fa-solid fa-star text-sunshine-500 mt-1" aria-hidden="true"></i> Tummy-time &amp; sensory exploration</li>
+              <li class="flex items-start gap-2 text-ink dark:text-white"><i class="fa-solid fa-star text-sunshine-500 mt-1" aria-hidden="true"></i> Daily photo &amp; report app updates</li>
+            </ul>
+            <a href="programs.html#infant" class="btn-chunky btn-chunky-primary">View Full Curriculum</a>
+          </div>
+        </div>
+
+        <div class="tab-panel hidden grid md:grid-cols-2 gap-10 items-center" data-panel="toddler" role="tabpanel">
+          <img src="https://images.unsplash.com/photo-1558576997-a29a7b11a56c?auto=format&fit=crop&w=700&q=80" alt="Toddler exploring a sensory art activity with paint-covered hands" class="ph-img rounded-[2rem] w-full h-80 object-cover shadow-lg" loading="lazy" width="700" height="320">
+          <div>
+            <h3 class="font-display text-2xl font-extrabold text-ink dark:text-white mb-3">Toddler Program <span class="text-sky-500">· 1 – 2 years</span></h3>
+            <p class="text-ink/70 dark:text-white/70 mb-4">Curious walkers and talkers explore language, movement, and independence through guided play, music, and their first taste of structured group routines.</p>
+            <ul class="space-y-2 mb-6">
+              <li class="flex items-start gap-2 text-ink dark:text-white"><i class="fa-solid fa-star text-sunshine-500 mt-1" aria-hidden="true"></i> Language &amp; vocabulary building</li>
+              <li class="flex items-start gap-2 text-ink dark:text-white"><i class="fa-solid fa-star text-sunshine-500 mt-1" aria-hidden="true"></i> Potty-training support &amp; routines</li>
+              <li class="flex items-start gap-2 text-ink dark:text-white"><i class="fa-solid fa-star text-sunshine-500 mt-1" aria-hidden="true"></i> Gross-motor play &amp; music time</li>
+            </ul>
+            <a href="programs.html#toddler" class="btn-chunky btn-chunky-primary">View Full Curriculum</a>
+          </div>
+        </div>
+
+        <div class="tab-panel hidden grid md:grid-cols-2 gap-10 items-center" data-panel="preschool" role="tabpanel">
+          <img src="https://images.unsplash.com/photo-1777056491418-d4ff81a4ad92?auto=format&fit=crop&w=700&q=80" alt="Preschoolers sitting at a classroom table working on a letters activity" class="ph-img rounded-[2rem] w-full h-80 object-cover shadow-lg" loading="lazy" width="700" height="320">
+          <div>
+            <h3 class="font-display text-2xl font-extrabold text-ink dark:text-white mb-3">Preschool Program <span class="text-leaf-500">· 3 – 4 years</span></h3>
+            <p class="text-ink/70 dark:text-white/70 mb-4">A play-based, standards-aligned curriculum covering early literacy, numbers, science, and social skills — building the confidence and habits kids need for kindergarten.</p>
+            <ul class="space-y-2 mb-6">
+              <li class="flex items-start gap-2 text-ink dark:text-white"><i class="fa-solid fa-star text-sunshine-500 mt-1" aria-hidden="true"></i> Letters, numbers &amp; early literacy</li>
+              <li class="flex items-start gap-2 text-ink dark:text-white"><i class="fa-solid fa-star text-sunshine-500 mt-1" aria-hidden="true"></i> Hands-on STEM &amp; sensory centers</li>
+              <li class="flex items-start gap-2 text-ink dark:text-white"><i class="fa-solid fa-star text-sunshine-500 mt-1" aria-hidden="true"></i> Social-emotional learning circles</li>
+            </ul>
+            <a href="programs.html#preschool" class="btn-chunky btn-chunky-primary">View Full Curriculum</a>
+          </div>
+        </div>
+
+        <div class="tab-panel hidden grid md:grid-cols-2 gap-10 items-center" data-panel="prek" role="tabpanel">
+          <img src="https://images.unsplash.com/photo-1709301264789-0f8392d72627?auto=format&fit=crop&w=700&q=80" alt="Pre-K student practicing handwriting during a kindergarten-readiness lesson" class="ph-img rounded-[2rem] w-full h-80 object-cover shadow-lg" loading="lazy" width="700" height="320">
+          <div>
+            <h3 class="font-display text-2xl font-extrabold text-ink dark:text-white mb-3">Pre-K Program <span class="text-coral-500">· 4 – 5 years</span></h3>
+            <p class="text-ink/70 dark:text-white/70 mb-4">Our kindergarten-readiness track sharpens writing, math reasoning, and independence, with a dedicated transition unit and family conferences each semester.</p>
+            <ul class="space-y-2 mb-6">
+              <li class="flex items-start gap-2 text-ink dark:text-white"><i class="fa-solid fa-star text-sunshine-500 mt-1" aria-hidden="true"></i> Kindergarten-readiness assessments</li>
+              <li class="flex items-start gap-2 text-ink dark:text-white"><i class="fa-solid fa-star text-sunshine-500 mt-1" aria-hidden="true"></i> Early writing &amp; math reasoning</li>
+              <li class="flex items-start gap-2 text-ink dark:text-white"><i class="fa-solid fa-star text-sunshine-500 mt-1" aria-hidden="true"></i> Semester family conferences</li>
+            </ul>
+            <a href="programs.html#prek" class="btn-chunky btn-chunky-primary">View Full Curriculum</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       DAILY SCHEDULE — vertical timeline
+       ========================================================================== -->
+  <section class="relative bg-leaf-50 dark:bg-[#0F1E1A] py-20 confetti-pattern">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      <div class="text-center mb-14" data-reveal data-reveal-group="schedule-head">
+        <span class="font-display font-bold text-leaf-600 dark:text-leaf-300 text-sm tracking-wide uppercase">A Day at Little Sprouts</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-ink dark:text-white mt-2">Our Typical Preschool Day</h2>
+        <p class="text-ink/70 dark:text-white/70 mt-3 max-w-xl mx-auto">Every classroom follows an age-adjusted version of this rhythm — balancing structure, movement, meals, and rest.</p>
+      </div>
+
+      <div class="relative timeline-rail">
+        <div class="space-y-8 md:space-y-0">
+          <!-- Timeline items -->
+          <div class="relative md:grid md:grid-cols-2 md:gap-10 items-center pl-12 md:pl-0" data-reveal data-reveal-group="timeline">
+            <div class="absolute left-0 md:left-1/2 md:-ml-[18px] top-0 w-9 h-9 rounded-full bg-sky-500 text-white grid place-items-center text-xs font-bold shadow"><i class="fa-solid fa-door-open" aria-hidden="true"></i></div>
+            <div class="md:text-right md:pr-12"><p class="font-display font-bold text-sky-600 dark:text-sky-300">7:00 AM</p><p class="text-ink dark:text-white font-semibold">Arrival &amp; Free Play</p></div>
+            <div class="hidden md:block"></div>
+          </div>
+          <div class="relative md:grid md:grid-cols-2 md:gap-10 items-center pl-12 md:pl-0" data-reveal data-reveal-group="timeline">
+            <div class="absolute left-0 md:left-1/2 md:-ml-[18px] top-0 w-9 h-9 rounded-full bg-coral-500 text-white grid place-items-center text-xs font-bold shadow"><i class="fa-solid fa-utensils" aria-hidden="true"></i></div>
+            <div class="hidden md:block"></div>
+            <div class="md:pl-12"><p class="font-display font-bold text-coral-600 dark:text-coral-300">8:30 AM</p><p class="text-ink dark:text-white font-semibold">Breakfast Together</p></div>
+          </div>
+          <div class="relative md:grid md:grid-cols-2 md:gap-10 items-center pl-12 md:pl-0" data-reveal data-reveal-group="timeline">
+            <div class="absolute left-0 md:left-1/2 md:-ml-[18px] top-0 w-9 h-9 rounded-full bg-sunshine-500 text-white grid place-items-center text-xs font-bold shadow"><i class="fa-solid fa-people-group" aria-hidden="true"></i></div>
+            <div class="md:text-right md:pr-12"><p class="font-display font-bold text-sunshine-600 dark:text-sunshine-300">9:00 AM</p><p class="text-ink dark:text-white font-semibold">Circle Time &amp; Calendar</p></div>
+            <div class="hidden md:block"></div>
+          </div>
+          <div class="relative md:grid md:grid-cols-2 md:gap-10 items-center pl-12 md:pl-0" data-reveal data-reveal-group="timeline">
+            <div class="absolute left-0 md:left-1/2 md:-ml-[18px] top-0 w-9 h-9 rounded-full bg-leaf-500 text-white grid place-items-center text-xs font-bold shadow"><i class="fa-solid fa-shapes" aria-hidden="true"></i></div>
+            <div class="hidden md:block"></div>
+            <div class="md:pl-12"><p class="font-display font-bold text-leaf-600 dark:text-leaf-300">9:30 AM</p><p class="text-ink dark:text-white font-semibold">Learning Centers</p></div>
+          </div>
+          <div class="relative md:grid md:grid-cols-2 md:gap-10 items-center pl-12 md:pl-0" data-reveal data-reveal-group="timeline">
+            <div class="absolute left-0 md:left-1/2 md:-ml-[18px] top-0 w-9 h-9 rounded-full bg-sky-500 text-white grid place-items-center text-xs font-bold shadow"><i class="fa-solid fa-sun" aria-hidden="true"></i></div>
+            <div class="md:text-right md:pr-12"><p class="font-display font-bold text-sky-600 dark:text-sky-300">10:30 AM</p><p class="text-ink dark:text-white font-semibold">Outdoor Play</p></div>
+            <div class="hidden md:block"></div>
+          </div>
+          <div class="relative md:grid md:grid-cols-2 md:gap-10 items-center pl-12 md:pl-0" data-reveal data-reveal-group="timeline">
+            <div class="absolute left-0 md:left-1/2 md:-ml-[18px] top-0 w-9 h-9 rounded-full bg-coral-500 text-white grid place-items-center text-xs font-bold shadow"><i class="fa-solid fa-bowl-food" aria-hidden="true"></i></div>
+            <div class="hidden md:block"></div>
+            <div class="md:pl-12"><p class="font-display font-bold text-coral-600 dark:text-coral-300">11:30 AM</p><p class="text-ink dark:text-white font-semibold">Lunch</p></div>
+          </div>
+          <div class="relative md:grid md:grid-cols-2 md:gap-10 items-center pl-12 md:pl-0" data-reveal data-reveal-group="timeline">
+            <div class="absolute left-0 md:left-1/2 md:-ml-[18px] top-0 w-9 h-9 rounded-full bg-sunshine-500 text-white grid place-items-center text-xs font-bold shadow"><i class="fa-solid fa-bed" aria-hidden="true"></i></div>
+            <div class="md:text-right md:pr-12"><p class="font-display font-bold text-sunshine-600 dark:text-sunshine-300">12:15 PM</p><p class="text-ink dark:text-white font-semibold">Nap &amp; Quiet Rest</p></div>
+            <div class="hidden md:block"></div>
+          </div>
+          <div class="relative md:grid md:grid-cols-2 md:gap-10 items-center pl-12 md:pl-0" data-reveal data-reveal-group="timeline">
+            <div class="absolute left-0 md:left-1/2 md:-ml-[18px] top-0 w-9 h-9 rounded-full bg-leaf-500 text-white grid place-items-center text-xs font-bold shadow"><i class="fa-solid fa-palette" aria-hidden="true"></i></div>
+            <div class="hidden md:block"></div>
+            <div class="md:pl-12"><p class="font-display font-bold text-leaf-600 dark:text-leaf-300">3:00 PM</p><p class="text-ink dark:text-white font-semibold">Art &amp; Music</p></div>
+          </div>
+          <div class="relative md:grid md:grid-cols-2 md:gap-10 items-center pl-12 md:pl-0" data-reveal data-reveal-group="timeline">
+            <div class="absolute left-0 md:left-1/2 md:-ml-[18px] top-0 w-9 h-9 rounded-full bg-sky-500 text-white grid place-items-center text-xs font-bold shadow"><i class="fa-solid fa-hand-holding-hand" aria-hidden="true"></i></div>
+            <div class="md:text-right md:pr-12"><p class="font-display font-bold text-sky-600 dark:text-sky-300">5:00 PM</p><p class="text-ink dark:text-white font-semibold">Free Play &amp; Pickup</p></div>
+            <div class="hidden md:block"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       WHY PARENTS CHOOSE US — sticker card icon grid
+       ========================================================================== -->
+  <section class="bg-[var(--cream)] dark:bg-ink-900 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="text-center max-w-2xl mx-auto mb-14" data-reveal data-reveal-group="why-head">
+        <span class="font-display font-bold text-sky-600 dark:text-sky-300 text-sm tracking-wide uppercase">Why Families Choose Us</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-ink dark:text-white mt-2">Peace of Mind, Built Into Every Day</h2>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-12">
+        <div class="sticker-card p-7 text-center" style="--card-accent:#3DB4F2; --rot:-1.5deg" data-reveal data-reveal-group="why">
+          <div class="w-14 h-14 mx-auto rounded-2xl bg-sky-100 dark:bg-sky-500/15 grid place-items-center text-sky-600 dark:text-sky-300 text-2xl mb-4"><i class="fa-solid fa-certificate" aria-hidden="true"></i></div>
+          <h3 class="font-display font-bold text-lg text-ink dark:text-white mb-2">Licensed &amp; Accredited</h3>
+          <p class="text-sm text-ink/70 dark:text-white/70">State-licensed with an accreditation track record inspected annually for safety and quality.</p>
+        </div>
+        <div class="sticker-card p-7 text-center" style="--card-accent:#FF6B6B; --rot:1.5deg" data-reveal data-reveal-group="why">
+          <div class="w-14 h-14 mx-auto rounded-2xl bg-coral-100 dark:bg-coral-500/15 grid place-items-center text-coral-600 dark:text-coral-300 text-2xl mb-4"><i class="fa-solid fa-people-group" aria-hidden="true"></i></div>
+          <h3 class="font-display font-bold text-lg text-ink dark:text-white mb-2">Low Student-Teacher Ratios</h3>
+          <p class="text-sm text-ink/70 dark:text-white/70">From 4:1 in infant rooms to 10:1 in Pre-K — every child gets attention that matters.</p>
+        </div>
+        <div class="sticker-card p-7 text-center" style="--card-accent:#06D6A0; --rot:-1deg" data-reveal data-reveal-group="why">
+          <div class="w-14 h-14 mx-auto rounded-2xl bg-leaf-100 dark:bg-leaf-500/15 grid place-items-center text-leaf-600 dark:text-leaf-300 text-2xl mb-4"><i class="fa-solid fa-kit-medical" aria-hidden="true"></i></div>
+          <h3 class="font-display font-bold text-lg text-ink dark:text-white mb-2">CPR &amp; First-Aid Certified</h3>
+          <p class="text-sm text-ink/70 dark:text-white/70">Every teacher completes annual CPR, first-aid, and child-safety recertification.</p>
+        </div>
+        <div class="sticker-card p-7 text-center" style="--card-accent:#FFC93C; --rot:1deg" data-reveal data-reveal-group="why">
+          <div class="w-14 h-14 mx-auto rounded-2xl bg-sunshine-100 dark:bg-sunshine-500/15 grid place-items-center text-sunshine-600 dark:text-sunshine-300 text-2xl mb-4"><i class="fa-solid fa-video" aria-hidden="true"></i></div>
+          <h3 class="font-display font-bold text-lg text-ink dark:text-white mb-2">Live Classroom Webcams</h3>
+          <p class="text-sm text-ink/70 dark:text-white/70">Peek in on your little one anytime from our secure parent app.</p>
+        </div>
+        <div class="sticker-card p-7 text-center" style="--card-accent:#3DB4F2; --rot:1.5deg" data-reveal data-reveal-group="why">
+          <div class="w-14 h-14 mx-auto rounded-2xl bg-sky-100 dark:bg-sky-500/15 grid place-items-center text-sky-600 dark:text-sky-300 text-2xl mb-4"><i class="fa-solid fa-carrot" aria-hidden="true"></i></div>
+          <h3 class="font-display font-bold text-lg text-ink dark:text-white mb-2">Chef-Prepared Meals</h3>
+          <p class="text-sm text-ink/70 dark:text-white/70">Fresh, allergy-aware breakfast, lunch, and snacks made on-site daily.</p>
+        </div>
+        <div class="sticker-card p-7 text-center" style="--card-accent:#FF6B6B; --rot:-1.5deg" data-reveal data-reveal-group="why">
+          <div class="w-14 h-14 mx-auto rounded-2xl bg-coral-100 dark:bg-coral-500/15 grid place-items-center text-coral-600 dark:text-coral-300 text-2xl mb-4"><i class="fa-solid fa-key" aria-hidden="true"></i></div>
+          <h3 class="font-display font-bold text-lg text-ink dark:text-white mb-2">Secure Keycard Entry</h3>
+          <p class="text-sm text-ink/70 dark:text-white/70">Controlled campus access and sign-in/sign-out logging for every pickup.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SAFETY & HYGIENE — photo + numbered protocol checklist
+       ========================================================================== -->
+  <section class="relative bg-leaf-50 dark:bg-[#0F1E1A] py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-14 items-center">
+      <div class="relative" data-reveal data-reveal-group="safety-img">
+        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=760&q=80" alt="Teacher helping a child wash hands at a low sink station" class="ph-img rounded-[2.5rem] w-full h-[420px] object-cover shadow-xl" loading="lazy" width="760" height="420">
+        <div class="absolute -top-6 -left-6 bg-white dark:bg-[#1B2138] rounded-2xl shadow-xl px-5 py-4 flex items-center gap-3 border-2 border-leaf-300 hidden sm:flex">
+          <div class="w-10 h-10 rounded-full bg-leaf-100 dark:bg-leaf-500/20 grid place-items-center text-leaf-600 dark:text-leaf-400"><i class="fa-solid fa-hand-sparkles" aria-hidden="true"></i></div>
+          <div class="text-sm leading-tight">
+            <p class="font-display font-bold text-ink dark:text-white">Cleaned Hourly</p>
+            <p class="text-ink/60 dark:text-white/60">Toys &amp; touch-points</p>
+          </div>
+        </div>
+      </div>
+      <div data-reveal data-reveal-group="safety-text">
+        <span class="font-display font-bold text-leaf-600 dark:text-leaf-300 text-sm tracking-wide uppercase">Safety &amp; Hygiene</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-ink dark:text-white mt-2 mb-6">Standards We Never Compromise On</h2>
+        <ol class="space-y-5">
+          <li class="flex items-start gap-4">
+            <span class="w-9 h-9 shrink-0 rounded-full bg-leaf-500 text-white font-display font-bold grid place-items-center">1</span>
+            <div><p class="font-display font-bold text-ink dark:text-white">Keycard Entry &amp; Sign-In Log</p><p class="text-sm text-ink/70 dark:text-white/70">Every pickup and drop-off is logged and photo-verified.</p></div>
+          </li>
+          <li class="flex items-start gap-4">
+            <span class="w-9 h-9 shrink-0 rounded-full bg-sky-500 text-white font-display font-bold grid place-items-center">2</span>
+            <div><p class="font-display font-bold text-ink dark:text-white">Hourly Sanitizing Rounds</p><p class="text-sm text-ink/70 dark:text-white/70">Toys, tables, and door handles cleaned throughout the day.</p></div>
+          </li>
+          <li class="flex items-start gap-4">
+            <span class="w-9 h-9 shrink-0 rounded-full bg-coral-500 text-white font-display font-bold grid place-items-center">3</span>
+            <div><p class="font-display font-bold text-ink dark:text-white">Daily Health Checks</p><p class="text-sm text-ink/70 dark:text-white/70">A quick wellness check for every child at drop-off.</p></div>
+          </li>
+          <li class="flex items-start gap-4">
+            <span class="w-9 h-9 shrink-0 rounded-full bg-sunshine-500 text-white font-display font-bold grid place-items-center">4</span>
+            <div><p class="font-display font-bold text-ink dark:text-white">CPR &amp; First-Aid Certified Staff</p><p class="text-sm text-ink/70 dark:text-white/70">Every classroom always has a certified adult present.</p></div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FACILITY GALLERY PREVIEW — polaroid horizontal filmstrip
+       ========================================================================== -->
+  <section class="relative bg-coral-50 dark:bg-[#1F1420] py-20 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="flex flex-wrap items-end justify-between gap-4 mb-10" data-reveal data-reveal-group="gal-head">
+        <div>
+          <span class="font-display font-bold text-coral-600 dark:text-coral-300 text-sm tracking-wide uppercase">Take a Peek Inside</span>
+          <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-ink dark:text-white mt-2">Our Classrooms &amp; Playground</h2>
+        </div>
+        <a href="gallery.html" class="btn-chunky btn-chunky-outline shrink-0">View Full Gallery</a>
+      </div>
+    </div>
+    <div class="flex gap-6 overflow-x-auto no-scrollbar px-4 sm:px-6 pb-4 max-w-7xl mx-auto" data-reveal data-reveal-group="gal-strip">
+      <div class="polaroid shrink-0 w-64" style="transform:rotate(-3deg)">
+        <img src="https://images.unsplash.com/photo-1772209177472-fc37fdfd4484?auto=format&fit=crop&w=500&q=80" alt="Children playing on the outdoor playground equipment" class="ph-img w-full h-52 object-cover rounded-sm" loading="lazy" width="500" height="208">
+        <p class="text-center font-display font-bold text-sm text-ink mt-3">Outdoor Playground</p>
+      </div>
+      <div class="polaroid shrink-0 w-64" style="transform:rotate(2deg)">
+        <img src="https://images.unsplash.com/photo-1567746455504-cb3213f8f5b8?auto=format&fit=crop&w=500&q=80" alt="Bright, organized nursery room with natural light and learning areas" class="ph-img w-full h-52 object-cover rounded-sm" loading="lazy" width="500" height="208">
+        <p class="text-center font-display font-bold text-sm text-ink mt-3">Nursery Room</p>
+      </div>
+      <div class="polaroid shrink-0 w-64" style="transform:rotate(-2deg)">
+        <img src="https://images.unsplash.com/photo-1770096679844-57ca92c2b64b?auto=format&fit=crop&w=500&q=80" alt="Children drawing with their teacher at an activity table" class="ph-img w-full h-52 object-cover rounded-sm" loading="lazy" width="500" height="208">
+        <p class="text-center font-display font-bold text-sm text-ink mt-3">Art &amp; Sensory Studio</p>
+      </div>
+      <div class="polaroid shrink-0 w-64" style="transform:rotate(3deg)">
+        <img src="https://images.unsplash.com/photo-1592106680408-e7e63efbc7ba?auto=format&fit=crop&w=500&q=80" alt="Child enjoying a picture book during quiet reading time" class="ph-img w-full h-52 object-cover rounded-sm" loading="lazy" width="500" height="208">
+        <p class="text-center font-display font-bold text-sm text-ink mt-3">Reading Nook</p>
+      </div>
+      <div class="polaroid shrink-0 w-64" style="transform:rotate(-2.5deg)">
+        <img src="https://images.unsplash.com/photo-1680634658557-6303317c5a25?auto=format&fit=crop&w=500&q=80" alt="Children seated together at the lunch table" class="ph-img w-full h-52 object-cover rounded-sm" loading="lazy" width="500" height="208">
+        <p class="text-center font-display font-bold text-sm text-ink mt-3">Lunch &amp; Snack Room</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       MEET OUR TEACHERS — circular swiper carousel
+       ========================================================================== -->
+  <section class="bg-[var(--cream)] dark:bg-ink-900 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="text-center max-w-2xl mx-auto mb-12" data-reveal data-reveal-group="teach-head">
+        <span class="font-display font-bold text-leaf-600 dark:text-leaf-300 text-sm tracking-wide uppercase">Meet the Team</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-ink dark:text-white mt-2">Teachers Who Know Your Child by Name</h2>
+      </div>
+      <div class="swiper teacher-swiper">
+        <div class="swiper-wrapper items-stretch pb-2">
+          <div class="swiper-slide text-center">
+            <button type="button" class="w-full" data-teacher-card data-name="Ms. Emily Carter" data-role="Lead Preschool Teacher" data-img="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80" data-years="9" data-qualification="B.A. Early Childhood Education" data-specialties="Kindergarten Readiness, Early Literacy, Classroom Management" data-certifications="CPR / First Aid, State Licensed, CDA Credential" data-quote="I want every child to leave my classroom loving to learn, not just knowing how to." data-bio="Emily has spent 9 years shaping playful, standards-aligned preschool classrooms. She holds a B.A. in Early Childhood Education and leads our kindergarten-readiness curriculum.">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80" alt="Ms. Emily Carter, Lead Preschool Teacher" class="ph-img w-28 h-28 mx-auto rounded-full object-cover border-4 border-sky-300 shadow" loading="lazy" width="112" height="112">
+              <p class="font-display font-bold text-ink dark:text-white mt-3">Ms. Emily Carter</p>
+              <p class="text-xs text-ink/60 dark:text-white/60">Preschool Lead</p>
+            </button>
+          </div>
+          <div class="swiper-slide text-center">
+            <button type="button" class="w-full" data-teacher-card data-name="Mr. Daniel Brooks" data-role="Toddler Room Lead" data-img="https://images.unsplash.com/photo-1600603406200-5b2a104684ac?auto=format&fit=crop&w=300&q=80" data-years="6" data-qualification="A.A. Child Development" data-specialties="Language Development, Positive Guidance, Potty-Training Support" data-certifications="CPR / First Aid, State Licensed" data-quote="Toddlers just need someone who won't rush them — the rest follows." data-bio="Daniel brings gentle energy to our toddler room, specializing in language development and positive-guidance routines. He's been with Little Sprouts for 6 years.">
+              <img src="https://images.unsplash.com/photo-1600603406200-5b2a104684ac?auto=format&fit=crop&w=300&q=80" alt="Mr. Daniel Brooks, Toddler Room Lead" class="ph-img w-28 h-28 mx-auto rounded-full object-cover border-4 border-coral-300 shadow" loading="lazy" width="112" height="112">
+              <p class="font-display font-bold text-ink dark:text-white mt-3">Mr. Daniel Brooks</p>
+              <p class="text-xs text-ink/60 dark:text-white/60">Toddler Lead</p>
+            </button>
+          </div>
+          <div class="swiper-slide text-center">
+            <button type="button" class="w-full" data-teacher-card data-name="Ms. Aisha Johnson" data-role="Infant Care Specialist" data-img="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=300&q=80" data-years="8" data-qualification="R.N., Infant/Toddler CDA" data-specialties="Infant Nutrition, Sensory Development, Sleep Routines" data-certifications="CPR / First Aid, Infant Safety Certified, State Licensed" data-quote="Every baby has their own rhythm. My job is to learn it, not change it." data-bio="A certified infant care specialist with a nursing background, Aisha leads our nursery with a calm, individualized approach to every baby's routine.">
+              <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=300&q=80" alt="Ms. Aisha Johnson, Infant Care Specialist" class="ph-img w-28 h-28 mx-auto rounded-full object-cover border-4 border-leaf-300 shadow" loading="lazy" width="112" height="112">
+              <p class="font-display font-bold text-ink dark:text-white mt-3">Ms. Aisha Johnson</p>
+              <p class="text-xs text-ink/60 dark:text-white/60">Infant Specialist</p>
+            </button>
+          </div>
+          <div class="swiper-slide text-center">
+            <button type="button" class="w-full" data-teacher-card data-name="Mr. Marco Lopez" data-role="Pre-K Teacher" data-img="https://images.unsplash.com/photo-1592234789031-94bf65f630ed?auto=format&fit=crop&w=300&q=80" data-years="5" data-qualification="B.A. Elementary Education" data-specialties="Early Math Reasoning, Public Speaking, STEM" data-certifications="CPR / First Aid, State Licensed" data-quote="Confidence is the real kindergarten-readiness skill — the academics catch up." data-bio="Marco designs our kindergarten-readiness units, focusing on early math reasoning and confident public speaking through show-and-tell.">
+              <img src="https://images.unsplash.com/photo-1592234789031-94bf65f630ed?auto=format&fit=crop&w=300&q=80" alt="Mr. Marco Lopez, Pre-K Teacher" class="ph-img w-28 h-28 mx-auto rounded-full object-cover border-4 border-sunshine-300 shadow" loading="lazy" width="112" height="112">
+              <p class="font-display font-bold text-ink dark:text-white mt-3">Mr. Marco Lopez</p>
+              <p class="text-xs text-ink/60 dark:text-white/60">Pre-K Teacher</p>
+            </button>
+          </div>
+          <div class="swiper-slide text-center">
+            <button type="button" class="w-full" data-teacher-card data-name="Ms. Grace Kim" data-role="Assistant Director" data-img="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80" data-years="10" data-qualification="M.Ed. Early Childhood Leadership" data-specialties="Curriculum Quality, Family Communication, Staff Mentoring" data-certifications="CPR / First Aid, Director Credential, State Licensed" data-quote="If a parent has a question, I want them to feel like they can just ask me." data-bio="Grace oversees curriculum quality and family communication across every classroom, and is usually the friendly face who greets you at drop-off.">
+              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80" alt="Ms. Grace Kim, Assistant Director" class="ph-img w-28 h-28 mx-auto rounded-full object-cover border-4 border-sky-300 shadow" loading="lazy" width="112" height="112">
+              <p class="font-display font-bold text-ink dark:text-white mt-3">Ms. Grace Kim</p>
+              <p class="text-xs text-ink/60 dark:text-white/60">Assistant Director</p>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-10">
+        <a href="teachers.html" class="btn-chunky btn-chunky-outline">Meet the Whole Team</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PARENT TESTIMONIALS — single spotlight, swiper fade
+       ========================================================================== -->
+  <section class="relative bg-sky-500 dark:bg-sky-700 py-20 overflow-hidden">
+    <svg class="float-shape absolute top-10 right-[8%] w-16 h-16 text-white/15 hidden sm:block" viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M16 40a12 12 0 0 1 2-23.8A16 16 0 0 1 48 20a10 10 0 0 1-2 20H16Z"/></svg>
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center relative">
+      <i class="fa-solid fa-quote-left text-sunshine-300 text-4xl mb-6" aria-hidden="true"></i>
+      <div class="swiper testimonial-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <p class="text-white text-xl sm:text-2xl font-display font-semibold leading-relaxed mb-6">"Aanya runs to the door every morning. The teachers treat her like their own, and the daily photo updates give me so much peace of mind at work."</p>
+            <div class="flex items-center justify-center gap-3">
+              <img src="https://images.unsplash.com/photo-1701096351544-7de3c7fa0272?auto=format&fit=crop&w=100&q=80" alt="Priya Patel" class="ph-img w-12 h-12 rounded-full object-cover border-2 border-white" loading="lazy" width="48" height="48">
+              <div class="text-left">
+                <p class="font-display font-bold text-white">Priya Patel</p>
+                <p class="text-white/80 text-sm">Mom of Aanya, Toddler Room</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="text-white text-xl sm:text-2xl font-display font-semibold leading-relaxed mb-6">"Jordan went from shy to confident thanks to the Pre-K team. The kindergarten-readiness prep was honestly better than I expected."</p>
+            <div class="flex items-center justify-center gap-3">
+              <img src="https://images.unsplash.com/photo-1757744705465-ea08b0ddc38a?auto=format&fit=crop&w=100&q=80" alt="Marcus Reed" class="ph-img w-12 h-12 rounded-full object-cover border-2 border-white" loading="lazy" width="48" height="48">
+              <div class="text-left">
+                <p class="font-display font-bold text-white">Marcus Reed</p>
+                <p class="text-white/80 text-sm">Dad of Jordan, Pre-K</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="text-white text-xl sm:text-2xl font-display font-semibold leading-relaxed mb-6">"Twins are double the worry, but the infant room's 4:1 ratio and webcam access made the transition back to work so much easier."</p>
+            <div class="flex items-center justify-center gap-3">
+              <img src="https://images.unsplash.com/photo-1701096374092-bb70915fdc5c?auto=format&fit=crop&w=100&q=80" alt="Sofia Nguyen" class="ph-img w-12 h-12 rounded-full object-cover border-2 border-white" loading="lazy" width="48" height="48">
+              <div class="text-left">
+                <p class="font-display font-bold text-white">Sofia Nguyen</p>
+                <p class="text-white/80 text-sm">Mom of Twins, Infant Room</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-pagination flex justify-center gap-2 mt-8"></div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       UPCOMING EVENTS — ticket-stub style card grid
+       ========================================================================== -->
+  <section class="bg-[var(--cream)] dark:bg-ink-900 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="text-center max-w-2xl mx-auto mb-12" data-reveal data-reveal-group="events-head">
+        <span class="font-display font-bold text-sunshine-600 dark:text-sunshine-300 text-sm tracking-wide uppercase">Mark Your Calendar</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-ink dark:text-white mt-2">Upcoming Events at Little Sprouts</h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="flex rounded-2xl overflow-hidden shadow-lg bg-white dark:bg-[#1B2138]" data-reveal data-reveal-group="event">
+          <div class="w-24 shrink-0 bg-coral-500 text-white flex flex-col items-center justify-center font-display">
+            <span class="text-xs font-bold">AUG</span><span class="text-3xl font-extrabold leading-none">15</span>
+          </div>
+          <div class="flex-1 p-5 border-l-2 border-dashed border-ink/15 dark:border-white/20">
+            <p class="font-display font-bold text-ink dark:text-white mb-1">Fall Open House</p>
+            <p class="text-xs text-ink/60 dark:text-white/60 mb-2"><i class="fa-regular fa-clock mr-1" aria-hidden="true"></i>10:00 AM – 1:00 PM</p>
+            <p class="text-sm text-ink/70 dark:text-white/70">Tour classrooms and meet our teachers.</p>
+          </div>
+        </div>
+        <div class="flex rounded-2xl overflow-hidden shadow-lg bg-white dark:bg-[#1B2138]" data-reveal data-reveal-group="event">
+          <div class="w-24 shrink-0 bg-sky-500 text-white flex flex-col items-center justify-center font-display">
+            <span class="text-xs font-bold">OCT</span><span class="text-3xl font-extrabold leading-none">24</span>
+          </div>
+          <div class="flex-1 p-5 border-l-2 border-dashed border-ink/15 dark:border-white/20">
+            <p class="font-display font-bold text-ink dark:text-white mb-1">Fall Harvest Festival</p>
+            <p class="text-xs text-ink/60 dark:text-white/60 mb-2"><i class="fa-regular fa-clock mr-1" aria-hidden="true"></i>4:00 PM – 6:00 PM</p>
+            <p class="text-sm text-ink/70 dark:text-white/70">Games, pumpkins, and a family picnic.</p>
+          </div>
+        </div>
+        <div class="flex rounded-2xl overflow-hidden shadow-lg bg-white dark:bg-[#1B2138]" data-reveal data-reveal-group="event">
+          <div class="w-24 shrink-0 bg-leaf-500 text-white flex flex-col items-center justify-center font-display">
+            <span class="text-xs font-bold">NOV</span><span class="text-3xl font-extrabold leading-none">12</span>
+          </div>
+          <div class="flex-1 p-5 border-l-2 border-dashed border-ink/15 dark:border-white/20">
+            <p class="font-display font-bold text-ink dark:text-white mb-1">Parent-Teacher Conferences</p>
+            <p class="text-xs text-ink/60 dark:text-white/60 mb-2"><i class="fa-regular fa-clock mr-1" aria-hidden="true"></i>By appointment</p>
+            <p class="text-sm text-ink/70 dark:text-white/70">Progress reports and portfolio review.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ENROLMENT PROCESS — horizontal connected-icon steps
+       ========================================================================== -->
+  <section class="relative bg-sky-500 dark:bg-sky-700 py-20 overflow-hidden">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="text-center max-w-2xl mx-auto mb-14" data-reveal data-reveal-group="enrol-head">
+        <span class="font-display font-bold text-sunshine-200 text-sm tracking-wide uppercase">Getting Started</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-white mt-2">Our Simple Enrolment Process</h2>
+      </div>
+      <div class="grid sm:grid-cols-4 gap-8 relative">
+        <div class="hidden sm:block absolute top-9 left-[12%] right-[12%] h-0.5 border-t-2 border-dashed border-white/40"></div>
+        <div class="relative text-center" data-reveal data-reveal-group="enrol-step">
+          <div class="w-[4.5rem] h-[4.5rem] mx-auto rounded-full bg-white text-sky-600 grid place-items-center text-2xl font-display font-extrabold shadow-lg mb-4 relative z-10">1</div>
+          <p class="font-display font-bold text-white mb-1">Submit Enquiry</p>
+          <p class="text-sm text-white/80">Tell us about your child &amp; preferred start date.</p>
+        </div>
+        <div class="relative text-center" data-reveal data-reveal-group="enrol-step">
+          <div class="w-[4.5rem] h-[4.5rem] mx-auto rounded-full bg-white text-sky-600 grid place-items-center text-2xl font-display font-extrabold shadow-lg mb-4 relative z-10">2</div>
+          <p class="font-display font-bold text-white mb-1">Tour the Campus</p>
+          <p class="text-sm text-white/80">Meet teachers &amp; see the classrooms in person.</p>
+        </div>
+        <div class="relative text-center" data-reveal data-reveal-group="enrol-step">
+          <div class="w-[4.5rem] h-[4.5rem] mx-auto rounded-full bg-white text-sky-600 grid place-items-center text-2xl font-display font-extrabold shadow-lg mb-4 relative z-10">3</div>
+          <p class="font-display font-bold text-white mb-1">Complete Paperwork</p>
+          <p class="text-sm text-white/80">Simple digital forms, no registration fee.</p>
+        </div>
+        <div class="relative text-center" data-reveal data-reveal-group="enrol-step">
+          <div class="w-[4.5rem] h-[4.5rem] mx-auto rounded-full bg-white text-sky-600 grid place-items-center text-2xl font-display font-extrabold shadow-lg mb-4 relative z-10">4</div>
+          <p class="font-display font-bold text-white mb-1">Start Date Arrives</p>
+          <p class="text-sm text-white/80">Meet the teacher &amp; begin the first day together.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FAQ PREVIEW — accordion (top questions) + link to full FAQ page
+       ========================================================================== -->
+  <section class="bg-[var(--cream)] dark:bg-ink-900 py-20">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <div class="text-center mb-12" data-reveal data-reveal-group="faq-head">
+        <span class="font-display font-bold text-coral-500 text-sm tracking-wide uppercase">Quick Answers</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-ink dark:text-white mt-2">Frequently Asked Questions</h2>
+      </div>
+      <div class="space-y-4" data-accordion="single">
+        <div class="accordion-item border-2 border-ink/10 dark:border-white/15 rounded-2xl overflow-hidden" data-open="true">
+          <button type="button" class="accordion-trigger w-full flex items-center justify-between gap-4 p-5 text-left font-display font-bold text-ink dark:text-white" aria-expanded="true">
+            What ages do you accept?
+            <i class="fa-solid fa-chevron-down accordion-chevron text-coral-500" aria-hidden="true"></i>
+          </button>
+          <div class="accordion-panel px-5"><p class="pb-5 text-ink/70 dark:text-white/70 text-sm">We welcome children from 6 weeks through 5 years old across our Infant, Toddler, Preschool, and Pre-K programs.</p></div>
+        </div>
+        <div class="accordion-item border-2 border-ink/10 dark:border-white/15 rounded-2xl overflow-hidden" data-open="false">
+          <button type="button" class="accordion-trigger w-full flex items-center justify-between gap-4 p-5 text-left font-display font-bold text-ink dark:text-white" aria-expanded="false">
+            Is there a registration fee?
+            <i class="fa-solid fa-chevron-down accordion-chevron text-coral-500" aria-hidden="true"></i>
+          </button>
+          <div class="accordion-panel px-5"><p class="pb-5 text-ink/70 dark:text-white/70 text-sm">No — there's no registration or application fee. You only pay tuition once your child's start date is confirmed.</p></div>
+        </div>
+        <div class="accordion-item border-2 border-ink/10 dark:border-white/15 rounded-2xl overflow-hidden" data-open="false">
+          <button type="button" class="accordion-trigger w-full flex items-center justify-between gap-4 p-5 text-left font-display font-bold text-ink dark:text-white" aria-expanded="false">
+            Do you offer a sibling discount?
+            <i class="fa-solid fa-chevron-down accordion-chevron text-coral-500" aria-hidden="true"></i>
+          </button>
+          <div class="accordion-panel px-5"><p class="pb-5 text-ink/70 dark:text-white/70 text-sm">Yes — 10% off for a second child and 15% off for a third child and beyond, applied automatically at enrollment.</p></div>
+        </div>
+        <div class="accordion-item border-2 border-ink/10 dark:border-white/15 rounded-2xl overflow-hidden" data-open="false">
+          <button type="button" class="accordion-trigger w-full flex items-center justify-between gap-4 p-5 text-left font-display font-bold text-ink dark:text-white" aria-expanded="false">
+            What are your operating hours?
+            <i class="fa-solid fa-chevron-down accordion-chevron text-coral-500" aria-hidden="true"></i>
+          </button>
+          <div class="accordion-panel px-5"><p class="pb-5 text-ink/70 dark:text-white/70 text-sm">We're open Monday through Friday, 7:00 AM – 6:00 PM, with optional extended-hours add-ons available.</p></div>
+        </div>
+      </div>
+      <div class="text-center mt-10">
+        <a href="faq.html" class="btn-chunky btn-chunky-outline">View All FAQs</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ENROLLMENT CTA — split image-left / color-right
+       ========================================================================== -->
+  <section class="bg-[var(--cream)] dark:bg-ink-900">
+    <div class="max-w-7xl mx-auto sm:px-6">
+      <div class="grid lg:grid-cols-2 overflow-hidden sm:rounded-[2rem] sm:my-16 shadow-xl">
+        <div class="relative h-64 lg:h-auto">
+          <img src="https://images.unsplash.com/photo-1760205085646-2ce78b07c189?auto=format&fit=crop&w=900&q=80" alt="Parent and child walking hand-in-hand toward campus" class="ph-img w-full h-full object-cover" loading="lazy" width="900" height="600">
+        </div>
+        <div class="bg-coral-500 text-white p-10 sm:p-14 flex flex-col justify-center">
+          <h2 class="font-display text-3xl font-extrabold mb-4">Ready to See Little Sprouts in Person?</h2>
+          <p class="text-white/90 mb-8">Schedule a no-pressure campus tour and meet the teachers who'll be caring for your child. Spots for Fall 2026 are filling quickly.</p>
+          <div class="flex flex-wrap gap-4">
+            <a href="admissions.html" class="btn-chunky btn-chunky-sun">Request a Tour</a>
+            <a href="contact.html" class="btn-chunky bg-white/10 text-white border-2 border-white/60 shadow-none hover:bg-white/20">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ==========================================================================
+     FOOTER — light pastel, wave top, 3-column
+     ========================================================================== -->
+<footer class="relative bg-sky-50 dark:bg-[#0D1321] pt-10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 grid md:grid-cols-3 gap-12 pb-14">
+    <div>
+      <a href="index.html" class="flex items-center gap-2.5 mb-4" aria-label="Little Sprouts Early Learning — Home">
+        <svg viewBox="0 0 48 48" class="w-10 h-10" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" fill="#FFC93C"/>
+          <path d="M24 12c-6 3-9 8-9 14 0 4.5 4 8 9 8s9-3.5 9-8c0-6-3-11-9-14Z" fill="#06D6A0"/>
+          <circle cx="19" cy="22" r="2" fill="#2B2440"/><circle cx="29" cy="22" r="2" fill="#2B2440"/>
+          <path d="M18 28c2 2.5 10 2.5 12 0" stroke="#2B2440" stroke-width="2" stroke-linecap="round" fill="none"/>
+        </svg>
+        <span class="font-display font-extrabold text-lg text-ink dark:text-white">Little Sprouts</span>
+      </a>
+      <p class="text-ink/70 dark:text-white/70 text-sm mb-5">Licensed daycare &amp; preschool serving Brookfield Heights families since 2011, from first steps to kindergarten-ready.</p>
+      <div class="flex items-center gap-3 mb-5">
+        <a href="#" class="w-9 h-9 rounded-full bg-white dark:bg-white/10 grid place-items-center text-ink dark:text-white hover:bg-coral-500 hover:text-white transition-colors" aria-label="Facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+        <a href="#" class="w-9 h-9 rounded-full bg-white dark:bg-white/10 grid place-items-center text-ink dark:text-white hover:bg-coral-500 hover:text-white transition-colors" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+        <a href="#" class="w-9 h-9 rounded-full bg-white dark:bg-white/10 grid place-items-center text-ink dark:text-white hover:bg-coral-500 hover:text-white transition-colors" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+      </div>
+      <p class="text-ink dark:text-white text-sm font-semibold"><i class="fa-regular fa-clock mr-1" aria-hidden="true"></i> Mon–Fri, 7:00 AM – 6:00 PM</p>
+    </div>
+    <div class="grid grid-cols-2 gap-8">
+      <div>
+        <h3 class="font-display font-bold text-ink dark:text-white mb-4">Quick Links</h3>
+        <ul class="space-y-2.5 text-sm">
+          <li><a href="about.html" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">About Us</a></li>
+          <li><a href="gallery.html" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">Gallery</a></li>
+          <li><a href="teachers.html" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">Our Teachers</a></li>
+          <li><a href="pricing.html" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">Pricing</a></li>
+          <li><a href="admissions.html" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">Admissions</a></li>
+          <li><a href="faq.html" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-display font-bold text-ink dark:text-white mb-4">Our Programs</h3>
+        <ul class="space-y-2.5 text-sm">
+          <li><a href="programs.html#infant" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">Infant · 6wks–1yr</a></li>
+          <li><a href="programs.html#toddler" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">Toddler · 1–2yrs</a></li>
+          <li><a href="programs.html#preschool" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">Preschool · 3–4yrs</a></li>
+          <li><a href="programs.html#prek" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">Pre-K · 4–5yrs</a></li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3 class="font-display font-bold text-ink dark:text-white mb-4">Visit Us</h3>
+      <ul class="space-y-3 text-sm text-ink/70 dark:text-white/70 mb-6">
+        <li class="flex items-start gap-2"><i class="fa-solid fa-location-dot mt-1 text-coral-500" aria-hidden="true"></i> 482 Maple Grove Lane, Brookfield Heights, IL 60513</li>
+        <li class="flex items-center gap-2"><i class="fa-solid fa-phone text-coral-500" aria-hidden="true"></i> <a href="tel:+15551234567" class="hover:text-coral-500 transition-colors">(555) 123-4567</a></li>
+        <li class="flex items-center gap-2"><i class="fa-solid fa-envelope text-coral-500" aria-hidden="true"></i> <a href="mailto:hello@littlesproutsacademy.com" class="hover:text-coral-500 transition-colors break-all">hello@littlesproutsacademy.com</a></li>
+      </ul>
+      <a href="admissions.html" class="btn-chunky btn-chunky-primary w-full justify-center text-sm">Schedule a Tour</a>
+    </div>
+  </div>
+  <div class="border-t border-ink/10 dark:border-white/10 py-6">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-ink/60 dark:text-white/60">
+      <p>&copy; <span data-year></span> Little Sprouts Early Learning. All rights reserved.</p>
+      <p class="flex items-center gap-4"><a href="#" class="hover:text-coral-500 transition-colors">Privacy Policy</a><a href="#" class="hover:text-coral-500 transition-colors">Terms</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- Teacher bio modal -->
+<div id="teacher-modal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-name">
+  <div class="min-h-full flex items-center justify-center p-4">
+    <div class="modal-panel bg-white dark:bg-[#1B2138] rounded-[2rem] max-w-lg w-full p-8 relative shadow-2xl border-4 border-sunshine-300 max-h-[85vh] overflow-y-auto">
+      <button type="button" data-modal-close class="absolute top-4 right-4 w-9 h-9 rounded-full bg-ink/5 dark:bg-white/10 grid place-items-center text-ink dark:text-white" aria-label="Close teacher bio"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+      <img data-modal-img src="" alt="" class="w-24 h-24 rounded-full object-cover border-4 border-coral-300 mx-auto mb-4" loading="lazy" width="96" height="96">
+      <h3 id="modal-name" data-modal-name class="font-display text-xl font-extrabold text-ink dark:text-white text-center"></h3>
+      <p data-modal-role class="text-coral-500 font-semibold text-center text-sm mb-3"></p>
+      <div data-modal-stats class="flex flex-wrap items-center justify-center gap-x-5 gap-y-1 mb-4 text-xs">
+        <span data-modal-years class="font-semibold text-ink dark:text-white"></span>
+        <span data-modal-qualification class="font-semibold text-ink dark:text-white"></span>
+      </div>
+      <div data-modal-specialties class="flex flex-wrap justify-center gap-2 mb-4"></div>
+      <blockquote data-modal-quote class="italic text-center text-ink/80 dark:text-white/80 text-sm border-l-4 border-coral-300 pl-4 mb-4"></blockquote>
+      <p data-modal-bio class="text-ink/70 dark:text-white/70 text-sm text-center mb-4"></p>
+      <div class="border-t border-ink/10 dark:border-white/10 pt-4">
+        <p class="text-center text-xs font-display font-bold text-ink/50 dark:text-white/50 uppercase tracking-wide mb-2">Certifications</p>
+        <div data-modal-certifications class="flex flex-wrap justify-center gap-2"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Back to top -->
+<button type="button" id="back-to-top" class="fixed bottom-6 right-6 z-40 w-12 h-12 rounded-full bg-coral-500 text-white shadow-xl grid place-items-center hover:bg-coral-600 transition-colors" aria-label="Back to top">
+  <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+</button>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

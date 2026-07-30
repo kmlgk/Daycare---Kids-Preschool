@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pricing & Enrollment Plans | Little Sprouts Early Learning</title>
+<meta name="description" content="Transparent daycare, preschool, after-school, and full-day care pricing at Little Sprouts Early Learning in Brookfield Heights, plus sibling discounts and optional activities.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    darkMode: 'class',
+    theme: {
+      extend: {
+        colors: {
+          sunshine: { 50:'#FFFCF2',100:'#FFF6D9',200:'#FFEBAD',300:'#FFDE7A',400:'#FFD35C',500:'#FFC93C',600:'#F0AE0E',700:'#C98A05' },
+          sky:      { 50:'#EFF9FF',100:'#DCF1FF',200:'#BEE8FE',300:'#8FD6FB',400:'#5FC5F7',500:'#3DB4F2',600:'#1E96D6',700:'#1678AE' },
+          coral:    { 50:'#FFF1F1',100:'#FFE1E1',200:'#FFC7C7',300:'#FFA8A8',400:'#FF8A8A',500:'#FF6B6B',600:'#E8514F',700:'#C93E3C' },
+          leaf:     { 50:'#E9FFF8',100:'#C9FCEC',200:'#98F5D9',300:'#5FEFC7',400:'#2FE3B4',500:'#06D6A0',600:'#04A87D',700:'#038864' },
+          ink:      { DEFAULT:'#2B2440', 50:'#F5F3FA', 900:'#16121F' }
+        },
+        fontFamily: { display: ['Baloo 2', 'cursive'], body: ['Quicksand', 'sans-serif'] }
+      }
+    }
+  };
+</script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="font-body antialiased overflow-x-hidden">
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<header class="site-header fixed top-0 inset-x-0 z-50 bg-white/95 dark:bg-ink-900/95 backdrop-blur-md">
+  <div class="utility-bar bg-ink text-white/90">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between py-2 text-xs sm:text-sm">
+      <div class="flex items-center gap-4">
+        <a href="tel:+15551234567" class="hover:text-sunshine-400 transition-colors"><i class="fa-solid fa-phone-volume" aria-hidden="true"></i> (555) 123-4567</a>
+        <span class="hidden sm:inline-flex items-center gap-1"><i class="fa-regular fa-clock" aria-hidden="true"></i> Mon–Fri, 7:00 AM–6:00 PM</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="admissions.html" class="hidden sm:inline hover:text-sunshine-400 transition-colors">Now Enrolling for Fall 2026</a>
+        <span class="flex items-center gap-2.5" aria-label="Follow us on social media">
+          <a href="#" class="hover:text-sunshine-400 transition-colors" aria-label="Facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+          <a href="#" class="hover:text-sunshine-400 transition-colors" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3">
+    <div class="flex items-center justify-between gap-4">
+      <a href="index.html" class="flex items-center gap-2 shrink-0 ltr:order-2 ltr:ml-auto xl:ltr:order-none xl:ltr:ml-0" aria-label="Little Sprouts Early Learning — Home">
+        <svg viewBox="0 0 48 48" class="w-9 h-9" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="#FFC93C"/><path d="M24 12c-6 3-9 8-9 14 0 4.5 4 8 9 8s9-3.5 9-8c0-6-3-11-9-14Z" fill="#06D6A0"/><circle cx="19" cy="22" r="2" fill="#2B2440"/><circle cx="29" cy="22" r="2" fill="#2B2440"/><path d="M18 28c2 2.5 10 2.5 12 0" stroke="#2B2440" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+        <span class="font-display font-extrabold text-lg leading-tight text-ink dark:text-white">Little Sprouts</span>
+      </a>
+      <nav aria-label="Primary" class="hidden xl:flex flex-1 items-center justify-center gap-7">
+        <div class="nav-dropdown" data-dropdown>
+          <button type="button" class="nav-link text-ink dark:text-white inline-flex items-center gap-1.5" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
+            Home <i class="fa-solid fa-chevron-down text-xs nav-dropdown-chevron" aria-hidden="true"></i>
+          </button>
+          <div class="nav-dropdown-panel" data-dropdown-panel role="menu">
+            <a href="index.html" role="menuitem">Home 1</a>
+            <a href="home-2.html" role="menuitem">Home 2</a>
+          </div>
+        </div>
+        <a href="about.html" class="nav-link text-ink dark:text-white">About</a>
+        <a href="programs.html" class="nav-link text-ink dark:text-white">Programs</a>
+        <a href="gallery.html" class="nav-link text-ink dark:text-white">Gallery</a>
+        <a href="teachers.html" class="nav-link text-ink dark:text-white">Teachers</a>
+        <a href="pricing.html" class="nav-link text-ink dark:text-white" aria-current="page">Pricing</a>
+        <a href="contact.html" class="nav-link text-ink dark:text-white">Contact</a>
+      </nav>
+      <div class="hidden xl:flex items-center gap-1 pl-3 border-l-2 border-ink/10 dark:border-white/15">
+        <button type="button" data-theme-toggle class="w-9 h-9 rounded-full grid place-items-center hover:bg-ink/5 dark:hover:bg-white/10 transition-colors text-ink dark:text-white" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-sun" data-icon="sun" aria-hidden="true"></i><i class="fa-solid fa-moon hidden" data-icon="moon" aria-hidden="true"></i>
+        </button>
+        <button type="button" data-dir-toggle class="w-9 h-9 rounded-full grid place-items-center hover:bg-ink/5 dark:hover:bg-white/10 transition-colors text-ink dark:text-white text-xs font-bold" aria-label="Toggle text direction"><span data-dir-label>RTL</span></button>
+      </div>
+      <a href="admissions.html" class="hidden xl:inline-flex btn-chunky btn-chunky-primary text-sm py-2.5 px-5">Book a Tour</a>
+      <button type="button" data-menu-open class="xl:hidden ltr:order-1 w-11 h-11 grid place-items-center rounded-xl border-2 border-ink/10 dark:border-white/15 text-ink dark:text-white" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-overlay"><i class="fa-solid fa-bars text-lg" aria-hidden="true"></i></button>
+    </div>
+  </div>
+</header>
+
+<div id="mobile-overlay" aria-hidden="true">
+  <div class="flex items-center justify-between px-5 py-4 border-b border-ink/10 dark:border-white/10">
+    <span class="font-display font-extrabold text-lg text-ink dark:text-white">Menu</span>
+    <button type="button" data-menu-close class="w-11 h-11 grid place-items-center rounded-xl border-2 border-ink/10 dark:border-white/15 text-ink dark:text-white" aria-label="Close menu"><i class="fa-solid fa-xmark text-lg" aria-hidden="true"></i></button>
+  </div>
+  <nav aria-label="Mobile" class="flex flex-col items-end sm:items-center justify-center gap-1 px-6 py-8 text-right sm:text-center overflow-y-auto">
+    <div class="menu-item flex flex-col items-end sm:items-center">
+      <button type="button" class="nav-link text-2xl font-display font-bold py-3 text-ink dark:text-white inline-flex items-center gap-2" data-mobile-submenu-toggle aria-expanded="false" aria-controls="mobile-home-submenu">
+        Home <i class="fa-solid fa-chevron-down text-base transition-transform" aria-hidden="true"></i>
+      </button>
+      <div class="mobile-submenu-panel flex flex-col items-end sm:items-center" id="mobile-home-submenu">
+        <a href="index.html" class="nav-link text-lg font-display font-semibold py-2 text-ink/80 dark:text-white/80">Home 1</a>
+        <a href="home-2.html" class="nav-link text-lg font-display font-semibold py-2 text-ink/80 dark:text-white/80">Home 2</a>
+      </div>
+    </div>
+    <a href="about.html" class="menu-item nav-link text-2xl font-display font-bold py-3 text-ink dark:text-white" style="transition-delay:.03s">About</a>
+    <a href="programs.html" class="menu-item nav-link text-2xl font-display font-bold py-3 text-ink dark:text-white" style="transition-delay:.06s">Programs</a>
+    <a href="gallery.html" class="menu-item nav-link text-2xl font-display font-bold py-3 text-ink dark:text-white" style="transition-delay:.09s">Gallery</a>
+    <a href="teachers.html" class="menu-item nav-link text-2xl font-display font-bold py-3 text-ink dark:text-white" style="transition-delay:.12s">Teachers</a>
+    <a href="pricing.html" class="menu-item nav-link text-2xl font-display font-bold py-3 text-ink dark:text-white" aria-current="page" style="transition-delay:.15s">Pricing</a>
+    <a href="faq.html" class="menu-item nav-link text-2xl font-display font-bold py-3 text-ink dark:text-white" style="transition-delay:.18s">FAQ</a>
+    <a href="contact.html" class="menu-item nav-link text-2xl font-display font-bold py-3 text-ink dark:text-white" style="transition-delay:.21s">Contact</a>
+    <div class="menu-item flex items-center flex-nowrap gap-3 mt-4" style="transition-delay:.24s">
+      <button type="button" data-theme-toggle class="w-11 h-11 shrink-0 rounded-full grid place-items-center border-2 border-ink/10 dark:border-white/20 text-ink dark:text-white" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-sun" data-icon="sun" aria-hidden="true"></i>
+        <i class="fa-solid fa-moon hidden" data-icon="moon" aria-hidden="true"></i>
+      </button>
+      <button type="button" data-dir-toggle class="h-11 px-4 shrink-0 rounded-full inline-flex items-center gap-2 border-2 border-ink/10 dark:border-white/20 text-ink dark:text-white text-sm font-bold whitespace-nowrap" aria-label="Toggle text direction">
+        <i class="fa-solid fa-arrow-right-arrow-left text-xs" aria-hidden="true"></i><span data-dir-label>RTL</span>
+      </button>
+    </div>
+    <a href="admissions.html" class="menu-item btn-chunky btn-chunky-primary mt-5 w-full max-w-xs justify-center" style="transition-delay:.27s">Book a Tour</a>
+  </nav>
+</div>
+
+<main id="main-content">
+
+  <!-- Compact hero banner: leaf→sky gradient + confetti pattern (new combo for this page) -->
+  <section class="relative pt-36 pb-24 md:pt-40 md:pb-28 overflow-hidden bg-gradient-to-br from-leaf-500 to-sky-600 confetti-pattern">
+    <svg class="float-shape absolute top-20 left-[8%] w-12 h-12 text-white/25 hidden sm:block" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1c-1 3-4 3-4 6a4 4 0 0 0 8 0c0-3-3-3-4-6Z"/><rect x="10" y="13" width="4" height="10" rx="1" fill="currentColor"/></svg>
+    <svg class="float-shape delay-2 absolute bottom-16 right-[10%] w-10 h-10 text-white/20 hidden lg:block" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor"/><text x="12" y="16" font-size="11" text-anchor="middle" fill="#1678AE" font-weight="bold">$</text></svg>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 relative text-center">
+      <nav aria-label="Breadcrumb" class="mb-5">
+        <ol class="flex items-center justify-center gap-2 text-sm text-white/85">
+          <li><a href="index.html" class="hover:text-sunshine-200">Home</a></li>
+          <li aria-hidden="true">/</li>
+          <li class="text-white font-semibold" aria-current="page">Pricing</li>
+        </ol>
+      </nav>
+      <span class="inline-flex items-center gap-2 bg-white/15 border-2 border-white/40 text-white font-display font-bold text-sm px-4 py-1.5 rounded-full mb-5">
+        <i class="fa-solid fa-piggy-bank" aria-hidden="true"></i> No Hidden Fees, Ever
+      </span>
+      <h1 class="font-display text-4xl sm:text-5xl font-extrabold text-white mb-4">Simple, Transparent Pricing<br class="hidden sm:block"> for Every Family</h1>
+      <p class="text-white/90 max-w-xl mx-auto">Choose the care schedule that fits your family — daycare, preschool, after-school, or a full day of learning. Sibling discounts and flexible add-ons included.</p>
+    </div>
+    <svg class="wave-divider absolute -bottom-px inset-x-0 text-[var(--cream)] dark:text-ink-900" viewBox="0 0 1200 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0,50 C300,-10 900,110 1200,40 L1200,90 L0,90 Z"/></svg>
+  </section>
+
+  <!-- Pricing Plans -->
+  <section class="bg-[var(--cream)] dark:bg-ink-900 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="text-center max-w-2xl mx-auto mb-14" data-reveal data-reveal-group="plans-head">
+        <span class="font-display font-bold text-coral-500 text-sm tracking-wide uppercase">Our Plans</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-ink dark:text-white mt-2">Care Plans for Every Age &amp; Schedule</h2>
+        <p class="text-ink/70 dark:text-white/70 mt-3">Prices shown are weekly tuition. Ask us about monthly auto-pay pricing, which saves an additional 2%.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 gap-y-12">
+        <!-- Plan 1: Half-Day Daycare -->
+        <div class="sticker-card p-8 flex flex-col" style="--card-accent:#3DB4F2; --rot:-1deg" data-reveal data-reveal-group="plan">
+          <div class="w-14 h-14 rounded-2xl bg-sky-100 dark:bg-sky-500/15 grid place-items-center text-sky-600 dark:text-sky-300 text-2xl mb-4"><i class="fa-solid fa-sun" aria-hidden="true"></i></div>
+          <h3 class="font-display font-bold text-xl text-ink dark:text-white mb-1">Half-Day Daycare</h3>
+          <p class="text-sm text-ink/60 dark:text-white/60 mb-4">Ages 6 weeks – 5 years &middot; 7:00 AM – 12:30 PM</p>
+          <p class="mb-5"><span class="font-display text-4xl font-extrabold text-ink dark:text-white">$185</span><span class="text-ink/60 dark:text-white/60"> /week</span></p>
+          <ul class="space-y-2 mb-8 text-sm flex-1">
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Morning snack included</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Learning centers &amp; circle time</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Outdoor play</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Daily parent app updates</li>
+          </ul>
+          <a href="admissions.html" class="btn-chunky btn-chunky-outline w-full justify-center">Enrol Now</a>
+        </div>
+
+        <!-- Plan 2: Full-Day Preschool (Most Popular) -->
+        <div class="sticker-card p-8 flex flex-col relative md:-translate-y-3" style="--card-accent:#FF6B6B; --rot:1deg" data-reveal data-reveal-group="plan">
+          <span class="absolute -top-4 left-1/2 -translate-x-1/2 bg-coral-500 text-white text-xs font-display font-bold px-4 py-1.5 rounded-full shadow-lg whitespace-nowrap">Most Popular</span>
+          <div class="w-14 h-14 rounded-2xl bg-coral-100 dark:bg-coral-500/15 grid place-items-center text-coral-600 dark:text-coral-300 text-2xl mb-4"><i class="fa-solid fa-shapes" aria-hidden="true"></i></div>
+          <h3 class="font-display font-bold text-xl text-ink dark:text-white mb-1">Full-Day Preschool</h3>
+          <p class="text-sm text-ink/60 dark:text-white/60 mb-4">Ages 3 – 5 years &middot; 7:00 AM – 6:00 PM</p>
+          <p class="mb-5"><span class="font-display text-4xl font-extrabold text-ink dark:text-white">$315</span><span class="text-ink/60 dark:text-white/60"> /week</span></p>
+          <ul class="space-y-2 mb-8 text-sm flex-1">
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Breakfast, lunch &amp; 2 snacks</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Full kindergarten-readiness curriculum</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Nap &amp; quiet rest time</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Art, music &amp; STEM centers</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Live classroom webcam access</li>
+          </ul>
+          <a href="admissions.html" class="btn-chunky btn-chunky-primary w-full justify-center">Enrol Now</a>
+        </div>
+
+        <!-- Plan 3: Full-Day Infant & Toddler Care -->
+        <div class="sticker-card p-8 flex flex-col" style="--card-accent:#06D6A0; --rot:-1.5deg" data-reveal data-reveal-group="plan">
+          <div class="w-14 h-14 rounded-2xl bg-leaf-100 dark:bg-leaf-500/15 grid place-items-center text-leaf-600 dark:text-leaf-300 text-2xl mb-4"><i class="fa-solid fa-baby" aria-hidden="true"></i></div>
+          <h3 class="font-display font-bold text-xl text-ink dark:text-white mb-1">Full-Day Infant &amp; Toddler Care</h3>
+          <p class="text-sm text-ink/60 dark:text-white/60 mb-4">Ages 6 weeks – 2 years &middot; 7:00 AM – 6:00 PM</p>
+          <p class="mb-5"><span class="font-display text-4xl font-extrabold text-ink dark:text-white">$365</span><span class="text-ink/60 dark:text-white/60"> /week</span></p>
+          <ul class="space-y-2 mb-8 text-sm flex-1">
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Individualized feeding &amp; nap plans</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Diapering &amp; formula support</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> 4:1 caregiver ratio</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Sensory &amp; tummy-time play</li>
+          </ul>
+          <a href="admissions.html" class="btn-chunky btn-chunky-outline w-full justify-center">Enrol Now</a>
+        </div>
+
+        <!-- Plan 4: After-School Care -->
+        <div class="sticker-card p-8 flex flex-col" style="--card-accent:#FFC93C; --rot:1.5deg" data-reveal data-reveal-group="plan">
+          <div class="w-14 h-14 rounded-2xl bg-sunshine-100 dark:bg-sunshine-500/15 grid place-items-center text-sunshine-600 dark:text-sunshine-300 text-2xl mb-4"><i class="fa-solid fa-bus" aria-hidden="true"></i></div>
+          <h3 class="font-display font-bold text-xl text-ink dark:text-white mb-1">After-School Care</h3>
+          <p class="text-sm text-ink/60 dark:text-white/60 mb-4">Ages 5 – 10 years &middot; 2:30 PM – 6:00 PM</p>
+          <p class="mb-5"><span class="font-display text-4xl font-extrabold text-ink dark:text-white">$145</span><span class="text-ink/60 dark:text-white/60"> /week</span></p>
+          <ul class="space-y-2 mb-8 text-sm flex-1">
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> School pickup included</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Homework help &amp; quiet study</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Daily snack</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Enrichment &amp; free play</li>
+          </ul>
+          <a href="admissions.html" class="btn-chunky btn-chunky-outline w-full justify-center">Enrol Now</a>
+        </div>
+
+        <!-- Plan 5: Optional Activities Add-On -->
+        <div class="sticker-card p-8 flex flex-col" style="--card-accent:#3DB4F2; --rot:-1deg" data-reveal data-reveal-group="plan">
+          <div class="w-14 h-14 rounded-2xl bg-sky-100 dark:bg-sky-500/15 grid place-items-center text-sky-600 dark:text-sky-300 text-2xl mb-4"><i class="fa-solid fa-music" aria-hidden="true"></i></div>
+          <h3 class="font-display font-bold text-xl text-ink dark:text-white mb-1">Optional Activities</h3>
+          <p class="text-sm text-ink/60 dark:text-white/60 mb-4">All ages &middot; Scheduled weekly sessions</p>
+          <p class="mb-5"><span class="font-display text-4xl font-extrabold text-ink dark:text-white">From $25</span><span class="text-ink/60 dark:text-white/60"> /month</span></p>
+          <ul class="space-y-2 mb-8 text-sm flex-1">
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Music &amp; movement class</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Beginner Spanish</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Creative dance</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Sports skills &amp; teamwork</li>
+          </ul>
+          <a href="contact.html" class="btn-chunky btn-chunky-outline w-full justify-center">Add to My Plan</a>
+        </div>
+
+        <!-- Plan 6: Drop-In / Hourly -->
+        <div class="sticker-card p-8 flex flex-col" style="--card-accent:#06D6A0; --rot:1deg" data-reveal data-reveal-group="plan">
+          <div class="w-14 h-14 rounded-2xl bg-leaf-100 dark:bg-leaf-500/15 grid place-items-center text-leaf-600 dark:text-leaf-300 text-2xl mb-4"><i class="fa-solid fa-clock" aria-hidden="true"></i></div>
+          <h3 class="font-display font-bold text-xl text-ink dark:text-white mb-1">Drop-In Care</h3>
+          <p class="text-sm text-ink/60 dark:text-white/60 mb-4">Ages 1 – 10 years &middot; By reservation, 24hr notice</p>
+          <p class="mb-5"><span class="font-display text-4xl font-extrabold text-ink dark:text-white">$14</span><span class="text-ink/60 dark:text-white/60"> /hour</span></p>
+          <ul class="space-y-2 mb-8 text-sm flex-1">
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> 2-hour minimum booking</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Snack included after 1 hour</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Great for appointments &amp; date nights</li>
+            <li class="flex items-start gap-2 text-ink/80 dark:text-white/80"><i class="fa-solid fa-check text-leaf-500 mt-1" aria-hidden="true"></i> Subject to same-day availability</li>
+          </ul>
+          <a href="contact.html" class="btn-chunky btn-chunky-outline w-full justify-center">Check Availability</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What's Included -->
+  <section class="relative bg-sky-50 dark:bg-[#0F1830] py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="text-center max-w-2xl mx-auto mb-12" data-reveal data-reveal-group="incl-head">
+        <span class="font-display font-bold text-sky-600 dark:text-sky-300 text-sm tracking-wide uppercase">Every Plan Includes</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-ink dark:text-white mt-2">What's Always Included</h2>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6" data-reveal data-reveal-group="incl-grid">
+        <div class="flex items-start gap-4 bg-white dark:bg-[#1B2138] rounded-2xl p-5 shadow-sm">
+          <div class="w-11 h-11 shrink-0 rounded-xl bg-coral-100 dark:bg-coral-500/15 grid place-items-center text-coral-600 dark:text-coral-300"><i class="fa-solid fa-carrot" aria-hidden="true"></i></div>
+          <div><p class="font-display font-bold text-ink dark:text-white mb-1">Nutritious Meals &amp; Snacks</p><p class="text-sm text-ink/70 dark:text-white/70">Chef-prepared, allergy-aware menus rotated weekly.</p></div>
+        </div>
+        <div class="flex items-start gap-4 bg-white dark:bg-[#1B2138] rounded-2xl p-5 shadow-sm">
+          <div class="w-11 h-11 shrink-0 rounded-xl bg-sky-100 dark:bg-sky-500/15 grid place-items-center text-sky-600 dark:text-sky-300"><i class="fa-solid fa-book-open" aria-hidden="true"></i></div>
+          <div><p class="font-display font-bold text-ink dark:text-white mb-1">Daily Learning Activities</p><p class="text-sm text-ink/70 dark:text-white/70">Age-appropriate curriculum built into every full day.</p></div>
+        </div>
+        <div class="flex items-start gap-4 bg-white dark:bg-[#1B2138] rounded-2xl p-5 shadow-sm">
+          <div class="w-11 h-11 shrink-0 rounded-xl bg-leaf-100 dark:bg-leaf-500/15 grid place-items-center text-leaf-600 dark:text-leaf-300"><i class="fa-solid fa-baby-carriage" aria-hidden="true"></i></div>
+          <div><p class="font-display font-bold text-ink dark:text-white mb-1">Diapering &amp; Potty Support</p><p class="text-sm text-ink/70 dark:text-white/70">Included at no extra charge for infant &amp; toddler rooms.</p></div>
+        </div>
+        <div class="flex items-start gap-4 bg-white dark:bg-[#1B2138] rounded-2xl p-5 shadow-sm">
+          <div class="w-11 h-11 shrink-0 rounded-xl bg-sunshine-100 dark:bg-sunshine-500/15 grid place-items-center text-sunshine-600 dark:text-sunshine-300"><i class="fa-solid fa-sun" aria-hidden="true"></i></div>
+          <div><p class="font-display font-bold text-ink dark:text-white mb-1">Outdoor Play Time</p><p class="text-sm text-ink/70 dark:text-white/70">Fenced playground access built into the daily schedule.</p></div>
+        </div>
+        <div class="flex items-start gap-4 bg-white dark:bg-[#1B2138] rounded-2xl p-5 shadow-sm">
+          <div class="w-11 h-11 shrink-0 rounded-xl bg-coral-100 dark:bg-coral-500/15 grid place-items-center text-coral-600 dark:text-coral-300"><i class="fa-solid fa-mobile-screen" aria-hidden="true"></i></div>
+          <div><p class="font-display font-bold text-ink dark:text-white mb-1">Digital Daily Reports</p><p class="text-sm text-ink/70 dark:text-white/70">Meals, naps &amp; milestones sent straight to your phone.</p></div>
+        </div>
+        <div class="flex items-start gap-4 bg-white dark:bg-[#1B2138] rounded-2xl p-5 shadow-sm">
+          <div class="w-11 h-11 shrink-0 rounded-xl bg-sky-100 dark:bg-sky-500/15 grid place-items-center text-sky-600 dark:text-sky-300"><i class="fa-solid fa-paintbrush" aria-hidden="true"></i></div>
+          <div><p class="font-display font-bold text-ink dark:text-white mb-1">Supplies &amp; Art Materials</p><p class="text-sm text-ink/70 dark:text-white/70">No supply lists — everything is provided in class.</p></div>
+        </div>
+      </div>
+    </div>
+    <svg class="wave-divider absolute -bottom-px inset-x-0 text-[var(--cream)] dark:text-ink-900" viewBox="0 0 1200 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0,60 C300,-10 900,120 1200,50 L1200,90 L0,90 Z"/></svg>
+  </section>
+
+  <!-- Flexible Care Options + Sibling Discounts (two-column band) -->
+  <section class="bg-[var(--cream)] dark:bg-ink-900 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-8">
+      <!-- Flexible Care Options -->
+      <div class="rounded-[2rem] bg-leaf-500 text-white p-9" data-reveal data-reveal-group="flex-care">
+        <div class="w-14 h-14 rounded-2xl bg-white/20 grid place-items-center text-2xl mb-5"><i class="fa-solid fa-calendar-days" aria-hidden="true"></i></div>
+        <h3 class="font-display text-2xl font-extrabold mb-4">Flexible Care Options</h3>
+        <ul class="space-y-3 text-sm">
+          <li class="flex items-start gap-2"><i class="fa-solid fa-circle-check mt-1" aria-hidden="true"></i> Choose 2, 3, or 5 days per week</li>
+          <li class="flex items-start gap-2"><i class="fa-solid fa-circle-check mt-1" aria-hidden="true"></i> Drop-in care with 24-hour notice</li>
+          <li class="flex items-start gap-2"><i class="fa-solid fa-circle-check mt-1" aria-hidden="true"></i> Extended hours add-on (before 7am / after 6pm)</li>
+          <li class="flex items-start gap-2"><i class="fa-solid fa-circle-check mt-1" aria-hidden="true"></i> Holiday &amp; school-break care available</li>
+        </ul>
+      </div>
+      <!-- Sibling Discounts -->
+      <div class="rounded-[2rem] bg-coral-500 text-white p-9 relative overflow-hidden" data-reveal data-reveal-group="sibling">
+        <i class="fa-solid fa-people-roof absolute -bottom-4 -right-4 text-9xl text-white/10" aria-hidden="true"></i>
+        <div class="w-14 h-14 rounded-2xl bg-white/20 grid place-items-center text-2xl mb-5 relative"><i class="fa-solid fa-heart" aria-hidden="true"></i></div>
+        <h3 class="font-display text-2xl font-extrabold mb-4 relative">Sibling Discounts</h3>
+        <ul class="space-y-3 text-sm relative">
+          <li class="flex items-center justify-between gap-3 bg-white/15 rounded-xl px-4 py-2.5"><span>2nd child enrolled</span><span class="font-display font-extrabold text-lg">10% off</span></li>
+          <li class="flex items-center justify-between gap-3 bg-white/15 rounded-xl px-4 py-2.5"><span>3rd child &amp; beyond</span><span class="font-display font-extrabold text-lg">15% off</span></li>
+          <li class="flex items-start gap-2 mt-2"><i class="fa-solid fa-circle-check mt-1" aria-hidden="true"></i> Automatically applied at enrollment</li>
+          <li class="flex items-start gap-2"><i class="fa-solid fa-circle-check mt-1" aria-hidden="true"></i> Applies to half-day &amp; full-day plans</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Admission Process (compact numbered list beside CTA) -->
+  <section class="relative bg-sunshine-50 dark:bg-[#241C0E] py-20 confetti-pattern">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-14 items-center">
+      <div data-reveal data-reveal-group="admission-steps">
+        <span class="font-display font-bold text-sunshine-700 dark:text-sunshine-300 text-sm tracking-wide uppercase">Getting Started</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-ink dark:text-white mt-2 mb-8">Our Simple Admission Process</h2>
+        <ol class="space-y-5">
+          <li class="flex items-start gap-4">
+            <span class="w-9 h-9 shrink-0 rounded-full bg-coral-500 text-white font-display font-bold grid place-items-center">1</span>
+            <div><p class="font-display font-bold text-ink dark:text-white">Submit an Enquiry</p><p class="text-sm text-ink/70 dark:text-white/70">Tell us about your child and preferred start date.</p></div>
+          </li>
+          <li class="flex items-start gap-4">
+            <span class="w-9 h-9 shrink-0 rounded-full bg-sky-500 text-white font-display font-bold grid place-items-center">2</span>
+            <div><p class="font-display font-bold text-ink dark:text-white">Schedule a Campus Tour</p><p class="text-sm text-ink/70 dark:text-white/70">Meet the teachers and see your child's future classroom.</p></div>
+          </li>
+          <li class="flex items-start gap-4">
+            <span class="w-9 h-9 shrink-0 rounded-full bg-leaf-500 text-white font-display font-bold grid place-items-center">3</span>
+            <div><p class="font-display font-bold text-ink dark:text-white">Complete Enrollment Paperwork</p><p class="text-sm text-ink/70 dark:text-white/70">Simple digital forms — no registration fee.</p></div>
+          </li>
+          <li class="flex items-start gap-4">
+            <span class="w-9 h-9 shrink-0 rounded-full bg-sunshine-500 text-white font-display font-bold grid place-items-center">4</span>
+            <div><p class="font-display font-bold text-ink dark:text-white">Meet the Teacher &amp; Start Date</p><p class="text-sm text-ink/70 dark:text-white/70">We'll confirm your plan, schedule, and first day together.</p></div>
+          </li>
+        </ol>
+      </div>
+      <div class="sticker-card p-8 sm:p-10 text-center" style="--card-accent:#3DB4F2; --rot:-1deg" data-reveal data-reveal-group="admission-cta">
+        <div class="w-16 h-16 mx-auto rounded-2xl bg-sky-100 dark:bg-sky-500/15 grid place-items-center text-sky-600 dark:text-sky-300 text-3xl mb-5"><i class="fa-solid fa-clipboard-check" aria-hidden="true"></i></div>
+        <h3 class="font-display text-2xl font-extrabold text-ink dark:text-white mb-3">Ready When You Are</h3>
+        <p class="text-ink/70 dark:text-white/70 mb-6">No registration fee, no long waitlists for most age groups, and a tour usually available within the week.</p>
+        <a href="admissions.html" class="btn-chunky btn-chunky-primary w-full justify-center mb-3">Start My Enquiry</a>
+        <a href="contact.html" class="btn-chunky btn-chunky-outline w-full justify-center">Ask a Question</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQs -->
+  <section class="bg-[var(--cream)] dark:bg-ink-900 py-20">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <div class="text-center mb-12" data-reveal data-reveal-group="faq-head">
+        <span class="font-display font-bold text-coral-500 text-sm tracking-wide uppercase">Pricing FAQs</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-ink dark:text-white mt-2">Questions About Tuition</h2>
+      </div>
+      <div class="space-y-4" data-accordion="single">
+        <div class="accordion-item border-2 border-ink/10 dark:border-white/15 rounded-2xl overflow-hidden" data-open="false">
+          <button type="button" class="accordion-trigger w-full flex items-center justify-between gap-4 p-5 text-left font-display font-bold text-ink dark:text-white" aria-expanded="false">
+            Is there a registration or enrollment fee?
+            <i class="fa-solid fa-chevron-down accordion-chevron text-coral-500" aria-hidden="true"></i>
+          </button>
+          <div class="accordion-panel px-5"><p class="pb-5 text-ink/70 dark:text-white/70 text-sm">No — Little Sprouts does not charge a registration or application fee. You only pay your weekly or monthly tuition once your child's start date is confirmed.</p></div>
+        </div>
+        <div class="accordion-item border-2 border-ink/10 dark:border-white/15 rounded-2xl overflow-hidden" data-open="false">
+          <button type="button" class="accordion-trigger w-full flex items-center justify-between gap-4 p-5 text-left font-display font-bold text-ink dark:text-white" aria-expanded="false">
+            Do you offer a sibling discount?
+            <i class="fa-solid fa-chevron-down accordion-chevron text-coral-500" aria-hidden="true"></i>
+          </button>
+          <div class="accordion-panel px-5"><p class="pb-5 text-ink/70 dark:text-white/70 text-sm">Yes. Families enrolling a second child receive 10% off that child's tuition, and 15% off for a third child and beyond. The discount is applied automatically at enrollment.</p></div>
+        </div>
+        <div class="accordion-item border-2 border-ink/10 dark:border-white/15 rounded-2xl overflow-hidden" data-open="false">
+          <button type="button" class="accordion-trigger w-full flex items-center justify-between gap-4 p-5 text-left font-display font-bold text-ink dark:text-white" aria-expanded="false">
+            Are meals really included in the price?
+            <i class="fa-solid fa-chevron-down accordion-chevron text-coral-500" aria-hidden="true"></i>
+          </button>
+          <div class="accordion-panel px-5"><p class="pb-5 text-ink/70 dark:text-white/70 text-sm">Yes — breakfast, lunch, and two snacks are included in every full-day plan at no extra cost. Half-day plans include a morning snack.</p></div>
+        </div>
+        <div class="accordion-item border-2 border-ink/10 dark:border-white/15 rounded-2xl overflow-hidden" data-open="false">
+          <button type="button" class="accordion-trigger w-full flex items-center justify-between gap-4 p-5 text-left font-display font-bold text-ink dark:text-white" aria-expanded="false">
+            Do you charge for holidays or center closures?
+            <i class="fa-solid fa-chevron-down accordion-chevron text-coral-500" aria-hidden="true"></i>
+          </button>
+          <div class="accordion-panel px-5"><p class="pb-5 text-ink/70 dark:text-white/70 text-sm">Weekly tuition holds your child's spot and covers approved holiday closures listed in our enrollment calendar, so there's no separate holiday billing.</p></div>
+        </div>
+        <div class="accordion-item border-2 border-ink/10 dark:border-white/15 rounded-2xl overflow-hidden" data-open="false">
+          <button type="button" class="accordion-trigger w-full flex items-center justify-between gap-4 p-5 text-left font-display font-bold text-ink dark:text-white" aria-expanded="false">
+            Can I switch between part-time and full-time?
+            <i class="fa-solid fa-chevron-down accordion-chevron text-coral-500" aria-hidden="true"></i>
+          </button>
+          <div class="accordion-panel px-5"><p class="pb-5 text-ink/70 dark:text-white/70 text-sm">Yes, with two weeks' notice, subject to space availability in your child's classroom. Just reach out to our front office to update your plan.</p></div>
+        </div>
+        <div class="accordion-item border-2 border-ink/10 dark:border-white/15 rounded-2xl overflow-hidden" data-open="false">
+          <button type="button" class="accordion-trigger w-full flex items-center justify-between gap-4 p-5 text-left font-display font-bold text-ink dark:text-white" aria-expanded="false">
+            What if I need to withdraw or pause care?
+            <i class="fa-solid fa-chevron-down accordion-chevron text-coral-500" aria-hidden="true"></i>
+          </button>
+          <div class="accordion-panel px-5"><p class="pb-5 text-ink/70 dark:text-white/70 text-sm">We ask for two weeks' written notice to withdraw. Short pauses (for travel, etc.) can hold your spot for a reduced retainer — just ask our office team.</p></div>
+        </div>
+      </div>
+      <p class="text-center text-sm text-ink/60 dark:text-white/60 mt-8">Have a different question? Visit our <a href="faq.html" class="text-coral-500 font-semibold hover:underline">full FAQ page</a> or <a href="contact.html" class="text-coral-500 font-semibold hover:underline">contact us</a> directly.</p>
+    </div>
+  </section>
+
+  <!-- Final Enrolment CTA — centered gradient band (distinct from Home's split CTA) -->
+  <section class="relative bg-gradient-to-r from-sunshine-500 via-coral-500 to-coral-600 py-20 overflow-hidden">
+    <svg class="float-shape absolute top-10 left-[10%] w-14 h-14 text-white/15 hidden sm:block" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .6 14.6 9H23l-6.8 5 2.6 8.4L12 17.4l-6.8 5L7.8 14 1 9h8.4Z"/></svg>
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 text-center relative">
+      <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-white mb-4">Ready to Enrol Your Child?</h2>
+      <p class="text-white/90 mb-8">Spots for Fall 2026 are filling quickly. Book a tour today and lock in your child's place with no registration fee.</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="admissions.html" class="btn-chunky btn-chunky-sun">Book a Campus Tour</a>
+        <a href="contact.html" class="btn-chunky bg-white/10 text-white border-2 border-white/60 shadow-none hover:bg-white/20">Contact Admissions</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="relative bg-sky-50 dark:bg-[#0D1321] pt-10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 grid md:grid-cols-3 gap-12 pb-14">
+    <div>
+      <a href="index.html" class="flex items-center gap-2.5 mb-4" aria-label="Little Sprouts Early Learning — Home">
+        <svg viewBox="0 0 48 48" class="w-10 h-10" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="#FFC93C"/><path d="M24 12c-6 3-9 8-9 14 0 4.5 4 8 9 8s9-3.5 9-8c0-6-3-11-9-14Z" fill="#06D6A0"/><circle cx="19" cy="22" r="2" fill="#2B2440"/><circle cx="29" cy="22" r="2" fill="#2B2440"/><path d="M18 28c2 2.5 10 2.5 12 0" stroke="#2B2440" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+        <span class="font-display font-extrabold text-lg text-ink dark:text-white">Little Sprouts</span>
+      </a>
+      <p class="text-ink/70 dark:text-white/70 text-sm mb-5">Licensed daycare &amp; preschool serving Brookfield Heights families since 2011, from first steps to kindergarten-ready.</p>
+      <div class="flex items-center gap-3 mb-5">
+        <a href="#" class="w-9 h-9 rounded-full bg-white dark:bg-white/10 grid place-items-center text-ink dark:text-white hover:bg-coral-500 hover:text-white transition-colors" aria-label="Facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+        <a href="#" class="w-9 h-9 rounded-full bg-white dark:bg-white/10 grid place-items-center text-ink dark:text-white hover:bg-coral-500 hover:text-white transition-colors" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+        <a href="#" class="w-9 h-9 rounded-full bg-white dark:bg-white/10 grid place-items-center text-ink dark:text-white hover:bg-coral-500 hover:text-white transition-colors" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+      </div>
+      <p class="text-ink dark:text-white text-sm font-semibold"><i class="fa-regular fa-clock mr-1" aria-hidden="true"></i> Mon–Fri, 7:00 AM – 6:00 PM</p>
+    </div>
+    <div class="grid grid-cols-2 gap-8">
+      <div>
+        <h3 class="font-display font-bold text-ink dark:text-white mb-4">Quick Links</h3>
+        <ul class="space-y-2.5 text-sm">
+          <li><a href="about.html" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">About Us</a></li>
+          <li><a href="gallery.html" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">Gallery</a></li>
+          <li><a href="teachers.html" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">Our Teachers</a></li>
+          <li><a href="pricing.html" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">Pricing</a></li>
+          <li><a href="admissions.html" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">Admissions</a></li>
+          <li><a href="faq.html" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-display font-bold text-ink dark:text-white mb-4">Our Programs</h3>
+        <ul class="space-y-2.5 text-sm">
+          <li><a href="programs.html#infant" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">Infant · 6wks–1yr</a></li>
+          <li><a href="programs.html#toddler" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">Toddler · 1–2yrs</a></li>
+          <li><a href="programs.html#preschool" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">Preschool · 3–4yrs</a></li>
+          <li><a href="programs.html#prek" class="text-ink/70 dark:text-white/70 hover:text-coral-500 transition-colors">Pre-K · 4–5yrs</a></li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3 class="font-display font-bold text-ink dark:text-white mb-4">Visit Us</h3>
+      <ul class="space-y-3 text-sm text-ink/70 dark:text-white/70 mb-6">
+        <li class="flex items-start gap-2"><i class="fa-solid fa-location-dot mt-1 text-coral-500" aria-hidden="true"></i> 482 Maple Grove Lane, Brookfield Heights, IL 60513</li>
+        <li class="flex items-center gap-2"><i class="fa-solid fa-phone text-coral-500" aria-hidden="true"></i> <a href="tel:+15551234567" class="hover:text-coral-500 transition-colors">(555) 123-4567</a></li>
+        <li class="flex items-center gap-2"><i class="fa-solid fa-envelope text-coral-500" aria-hidden="true"></i> <a href="mailto:hello@littlesproutsacademy.com" class="hover:text-coral-500 transition-colors break-all">hello@littlesproutsacademy.com</a></li>
+      </ul>
+      <a href="admissions.html" class="btn-chunky btn-chunky-primary w-full justify-center text-sm">Schedule a Tour</a>
+    </div>
+  </div>
+  <div class="border-t border-ink/10 dark:border-white/10 py-6">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-ink/60 dark:text-white/60">
+      <p>&copy; <span data-year></span> Little Sprouts Early Learning. All rights reserved.</p>
+      <p class="flex items-center gap-4"><a href="#" class="hover:text-coral-500 transition-colors">Privacy Policy</a><a href="#" class="hover:text-coral-500 transition-colors">Terms</a></p>
+    </div>
+  </div>
+</footer>
+
+<button type="button" id="back-to-top" class="fixed bottom-6 right-6 z-40 w-12 h-12 rounded-full bg-coral-500 text-white shadow-xl grid place-items-center hover:bg-coral-600 transition-colors" aria-label="Back to top"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></button>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
