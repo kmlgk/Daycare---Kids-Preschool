@@ -420,6 +420,11 @@ html.dark .form-error-msg { color: #ff9d9d; }
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
+/* Horizontal scroll strips: signal drag affordance on desktop */
+.overflow-x-auto.no-scrollbar { cursor: grab; }
+.overflow-x-auto.no-scrollbar.is-dragging { cursor: grabbing; scroll-snap-type: none; user-select: none; }
+.overflow-x-auto.no-scrollbar.is-dragging * { pointer-events: none; }
+
 /* Skip link */
 .skip-link {
   position: absolute; left: 0; top: 0; z-index: 999;

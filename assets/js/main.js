@@ -564,6 +564,55 @@
   }
 
   /* ------------------------------------------------------------------ *
+   * Horizontal scroll strips (polaroid filmstrips, timelines, etc.)
+   * On desktop a mouse only has a vertical wheel, and the scrollbar is
+   * intentionally hidden — without help, hovering the strip just scrolls
+   * the page and the extra content is unreachable. Redirect vertical
+   * wheel input into horizontal scroll, and support click-and-drag.
+   * ------------------------------------------------------------------ */
+  function initHorizontalScrollStrips() {
+    document.querySelectorAll('.overflow-x-auto.no-scrollbar').forEach(function (strip) {
+      strip.addEventListener('wheel', function (e) {
+        if (strip.scrollWidth <= strip.clientWidth) return;
+        if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+          strip.scrollLeft += e.deltaY;
+          e.preventDefault();
+        }
+      }, { passive: false });
+
+      var isDown = false, startX = 0, startScrollLeft = 0, moved = false;
+      strip.addEventListener('mousedown', function (e) {
+        if (strip.scrollWidth <= strip.clientWidth) return;
+        isDown = true;
+        moved = false;
+        strip.classList.add('is-dragging');
+        startX = e.pageX;
+        startScrollLeft = strip.scrollLeft;
+      });
+      window.addEventListener('mouseup', function () {
+        isDown = false;
+        strip.classList.remove('is-dragging');
+      });
+      strip.addEventListener('mouseleave', function () {
+        isDown = false;
+        strip.classList.remove('is-dragging');
+      });
+      strip.addEventListener('mousemove', function (e) {
+        if (!isDown) return;
+        e.preventDefault();
+        var delta = e.pageX - startX;
+        if (Math.abs(delta) > 3) moved = true;
+        strip.scrollLeft = startScrollLeft - delta;
+      });
+      // Suppress the click on a link/card immediately after a drag so
+      // dragging the strip doesn't accidentally activate what's under the cursor.
+      strip.addEventListener('click', function (e) {
+        if (moved) { e.preventDefault(); e.stopPropagation(); moved = false; }
+      }, true);
+    });
+  }
+
+  /* ------------------------------------------------------------------ *
    * GSAP ScrollTrigger reveals
    * ------------------------------------------------------------------ */
   function initScrollReveals() {
@@ -689,6 +738,7 @@
     initActiveNav();
     initFooterYear();
     initBackToTop();
+    initHorizontalScrollStrips();
     initScrollReveals();
     initTyped();
     initSwipers();
