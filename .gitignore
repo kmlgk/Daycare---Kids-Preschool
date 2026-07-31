@@ -1,0 +1,8 @@
+# Internal design notes — not part of the shipped template
+template-design-registry.md
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
